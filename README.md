@@ -9,14 +9,12 @@ Repository for Algorithm Study
 >>   : 백준 온라인 저지 문제 풀이  
 >> **Programmers**  
 >>   : 프로그래머스 코딩테스트 연습 문제 풀이  
+
 <br>
-
-
 
 #### 공부 순서
 
 1. 알고리즘 개요
-
 2. 순환 (Recursion)
 3. 정렬 (Sort)
 4. 해쉬 (Hash)
@@ -27,9 +25,8 @@ Repository for Algorithm Study
 9. 트리 (Tree)
 10. 탐욕법 (Greedy Algorithm)
 11. 분할과 정복 (Divide & Conquer)
-12. 동적계획법 (Dynamic Programming) 
-
-
+12. 동적계획법 (Dynamic Programming)
+<br>
 
 #### 참고
 
