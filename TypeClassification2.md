@@ -26,11 +26,11 @@
   
   최소 신장 트리 (Minimum Spanning Tree:MST / Kruskal, Prim), 최소 비용 최대 유량 (Minimum Cost Maximum  
   
-  Flow:MCMF),  포드풀커슨 (Ford-Fulkerson, 네트워크 플로우), 유니온 파인드 (Union Find) - 서로소 집합(Disjoint Set)  
+  Flow:MCMF),  포드풀커슨 (Ford-Fulkerson, 네트워크 플로우), 유니온 파인드 (Union Find, 서로소 집합)  
 
 - #### STRING
 
-  : KMP (Knuth-Morris-Pratt), 아호 코라식 (Aho-Corasick), 라빈-카프 (Rabin-Karp), 보이어 무어 (Boyer-Moore)  
+  : **KMP (Knuth-Morris-Pratt)**, 아호 코라식 (Aho-Corasick), 라빈-카프 (Rabin-Karp), 보이어 무어 (Boyer-Moore)  
 
 <br>
 
@@ -62,7 +62,7 @@
 
 : 최장 증가 부분 수열 (Longest Increasing Subsequence:LIS), 최장 공통 부분 수열 (Longest Common Subsequence:LCS),  
 
-편집 거리 (Edit Distance, Levenshtein Distance), 배낭 (Knapsack), 외판원 순회 (Traveling Salesperson Problem:TSP),  
+편집 거리 (Edit Distance, Levenshtein Distance), **배낭 (Knapsack)**, 외판원 순회 (Traveling Salesperson Problem:TSP),  
 
 조합론, 비트마스크 (Bit Mask), 시뮬레이션, 경로 재구성, 확률  
 
@@ -81,7 +81,6 @@
 : 유클리드 호제법 (GCD 최대공약수), n미만의 소수, 소인수 분해, 유클리드 확장 정리,  
 
 오일러 PI 함수, 카탈란 수, 고속 푸리에 변환 (Fast Fourier Transform:FFT)  
-
 <br>
 
 ******
