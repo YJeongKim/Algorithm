@@ -11,16 +11,22 @@
 - #### TREE
 
   : **이진 탐색 트리 (Binary Search Tree)**, 트라이 (Trie, Prefix Tree), 세그먼트 트리 (Segment Tree),  
+  
   펜윅 트리 (Fenwick Tree, Binary Indexed Tree:BIT), 세그먼트 트리 with Lazy Propagation,  
+  
   최소 공통 조상 (Lowest Common Ancestor:LCA)  
 
 - #### GRAPH
 
   : **깊이 우선 탐색 (DFS)**, **넓이 우선 탐색 (BFS)**, 위상 정렬 (Topological Sort), 오일러 서킷 (Eulerian Circuit),  
+  
   강결합 (Strongly Connected Component:SCC), 이분 그래프 (Bipartite Graph), 단절점 (Articulation Point),  
+  
   2-SAT (2-Satisfiability), **최단경로 알고리즘 (Shortest Path / 벨만포드, 다익스트라, 플로이드 워셜)**,  
-  최소 신장 트리 (Minimum Spanning Tree:MST / Kruskal, Prim), 최소 비용 최대 유량 (Minimum Cost Maximum Flow:MCMF),  
-  포드풀커슨 (Ford-Fulkerson, 네트워크 플로우), 유니온 파인드 (Union Find) - 서로소 집합(Disjoint Set)  
+  
+  최소 신장 트리 (Minimum Spanning Tree:MST / Kruskal, Prim), 최소 비용 최대 유량 (Minimum Cost Maximum  
+  
+  Flow:MCMF),  포드풀커슨 (Ford-Fulkerson, 네트워크 플로우), 유니온 파인드 (Union Find) - 서로소 집합(Disjoint Set)  
 
 - #### STRING
 
@@ -64,13 +70,17 @@
 
 > 기하 알고리즘
 
-: CCW (Counter Clock Wise, 반시계 방향), 컨벡스 헐 (Convex Hull, 블록 껍질), 회전하는 캘리퍼스 (Rotating Calipers), 가장 인접한 두 점의 거리  
+: CCW (Counter Clock Wise, 반시계 방향), 컨벡스 헐 (Convex Hull, 블록 껍질),  
+
+회전하는 캘리퍼스 (Rotating Calipers), 가장 인접한 두 점의 거리  
 
 <br>
 
 > 정수론
 
-: 유클리드 호제법 (GCD 최대공약수), n미만의 소수, 소인수 분해, 유클리드 확장 정리, 오일러 PI 함수, 카탈란 수, 고속 푸리에 변환 (Fast Fourier Transform:FFT)  
+: 유클리드 호제법 (GCD 최대공약수), n미만의 소수, 소인수 분해, 유클리드 확장 정리,  
+
+오일러 PI 함수, 카탈란 수, 고속 푸리에 변환 (Fast Fourier Transform:FFT)  
 
 <br>
 
