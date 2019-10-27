@@ -6,7 +6,7 @@
 
 <br>
 
-#### # 컴퓨터 알고리즘이란?  
+#### # 컴퓨터 알고리즘이란?
 
 - 컴퓨터 언어 (Computer Language)
 
@@ -80,6 +80,22 @@
 
 <br>
 
+#### # 성능 분석의 비교 대상
+
+- 산술 연산 (Arithmetic Calculation)
+
+  : Add, Multiply, Exponent, Modular, ...
+
+- 데이터 입출력 (Data Movement)
+
+  : Copy, Move, Save, Load, ...
+
+- 제어 연산 (Access Control)
+
+  : If, While, Register, ...
+
+<br>
+
 #### # 시간 복잡도 (Time Complexity)
 
 : 문제를 해결하는데 걸리는 시간과 입력의 함수 관계이다.  
@@ -123,7 +139,13 @@
 - 가장 자주 실행되는 연산 혹은 문장의 실행 횟수를 고려하는 것으로 충분하다.
 
   - o-notation (리틀오 표기) / O-notation (빅오 표기)
-
-  - Θ-notation (쎄타 표기)
-
+- Θ-notation (쎄타 표기)
   - Ω-notation (오메가 표기) / ω-notation (리틀오메가 표기)
+
+<br>
+
+******
+#### 참고
+
+###### [블로그] [https://gompangs.tistory.com/entry/알고리즘](https://gompangs.tistory.com/entry/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84Time-Complexity) - 그림
+
