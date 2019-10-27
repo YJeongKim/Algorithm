@@ -139,7 +139,7 @@
 - 가장 자주 실행되는 연산 혹은 문장의 실행 횟수를 고려하는 것으로 충분하다.
 
   - o-notation (리틀오 표기) / O-notation (빅오 표기)
-- Θ-notation (쎄타 표기)
+  - Θ-notation (쎄타 표기)
   - Ω-notation (오메가 표기) / ω-notation (리틀오메가 표기)
 
 <br>
