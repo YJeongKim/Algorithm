@@ -8,25 +8,25 @@
 
 점근적 표기법에는 대표적으로 대문자 오(O) 표기법, 대문자 오메가(Ω) 표기법, 대문자 세타(Θ) 표기법, 소문자 오(o) 표기법, 소문자 오메가(ω) 표기법으로 다섯 종류가 있다.
 
-<br>
 
-###### * 잠깐! 그래프가 아래에 있을 수록 수행시간이 짧은 것이므로 성능이 좋은 것이다.
+
+###### * 잠깐! 그래프가 아래에 있을수록 수행시간이 짧은 것이므로 성능이 좋은 것이다.
 
 #### # O Notation (빅-오 표기법) - 최악의 경우
 
 : O(g(n)) = { f(n) : n ≥ n<sub>0</sub> 인 모든 n에 대해 0 ≤ f(n) ≤ cg(n) 를 만족하는 양수 상수 c 와 n<sub>0</sub> 가 존재 }
 
-$$
-O\left( g\left( n \right)  \right) =\left\{ f\left( n \right) |0\le f\left( n \right) \le c\cdot g\left( n \right) \quad for\quad all\quad n\ge { n }_{ 0 }>0 \right\} \quad for\quad \exist \quad c>0
-$$
+![image-20200109185716982](C:\Users\김연정\AppData\Roaming\Typora\typora-user-images\image-20200109185716982.png)
 
-<img src="https://i.imgur.com/QmfDswm.png" alt="img" style="zoom:90%;" />
+<img src="https://i.imgur.com/QmfDswm.png" alt="img" style="zoom:70%;" />
 
-- g(n)을 함수 f(n)의 **점근적 상한 (Asymptotic Upper Bound)**이라고 한다.
+- g(n)을 함수 f(n)의 **점근적 상한 (Asymptotic Upper Bound)** 이라고 한다.
 
 - n<sub>0</sub>보다 오른쪽에 있는 모든 n에 대해서 함수 f(n)의 값은 cg(n)과 같거나 아래쪽에(작음) 있다.
 
-  f(n)의 절댓값이 n이 무한대(∞)로 감에 따라 언젠가는(n<sub>0</sub>의 값을 만나면) g(n)의 절댓값에 임의의 양의 상수 c를 곱한 값보다 작아진다. (양의 상수가 하나만 존재해도 성립한다)
+  f(n)의 절댓값이 n이 무한대(∞)로 감에 따라 언젠가는(n<sub>0</sub>의 값을 만나면)
+
+  g(n)의 절댓값에 임의의 양의 상수 c를 곱한 값보다 작아진다. (양의 상수가 하나만 존재해도 성립한다)
 
 - 주어진 알고리즘이 아무리 나빠도(최악의 경우라도) 비교하는 함수와 같거나 좋다.
 
@@ -35,16 +35,18 @@ $$
 #### # Ω Notation (빅-오메가 표기법) - 최선의 경우
 
 : Ω(g(n)) = { f(n) : n ≥ n<sub>0</sub> 인 모든 n에 대해 0 ≤ cg(n) ≤ f(n)를 만족하는 양수 상수 c 와 n<sub>0</sub> 가 존재 }
-$$
-\Omega\left( g\left( n \right)  \right) =\left\{ f\left( n \right) |0\le c\cdot g\left( n \right) \le f\left( n \right) \quad for\quad all\quad n\ge { n }_{ 0 }>0 \right\} \quad for\quad\exist\quad c>0
-$$
-<img src="https://i.imgur.com/1Hnuy1s.png" alt="img" style="zoom: 80%;" />
 
-- g(n)을 함수 f(n)의 **점근적 하한 (Asymptotic Lower Bound)**이라고 한다.
+![image-20200109185913377](C:\Users\김연정\AppData\Roaming\Typora\typora-user-images\image-20200109185913377.png)
+
+<img src="https://i.imgur.com/1Hnuy1s.png" alt="img" style="zoom: 70%;" />
+
+- g(n)을 함수 f(n)의 **점근적 하한 (Asymptotic Lower Bound)** 이라고 한다.
 
 - n<sub>0</sub> 보다 오른쪽에 있는 모든 n에 대해서 함수 f(n)의 값은 cg(n)과 같거나 위쪽에(큼) 있다.
 
-  f(n)의 절댓값이 n이 무한대(∞)로 감에 따라 언젠가는(n<sub>0</sub>의 값을 만나면) g(n)의 절댓값에 임의의 양의 상수 c를 곱한 값보다 커진다.
+  f(n)의 절댓값이 n이 무한대(∞)로 감에 따라 언젠가는(n<sub>0</sub>의 값을 만나면)
+
+  g(n)의 절댓값에 임의의 양의 상수 c를 곱한 값보다 커진다.
 
 - 주어진 알고리즘이 아무리 좋아도(최선의 경우라도) 비교하는 함수와 같거나 나쁘다.
 
@@ -53,22 +55,24 @@ $$
 #### # Θ Notation (세타 표기법) - 평균(최악과 최선의 중간 어느 지점)의 경우
 
 : Θ(g(n)) = { f(n) : n ≥ n<sub>0</sub> 인 모든 n에 대해 0 ≤ c<sub>1</sub>g(n) ≤ f(n) ≤ c<sub>2</sub>g(n) 을 만족하는 양수 상수 c<sub>1</sub>, c<sub>2</sub>와 n<sub>0</sub> 가 존재 }
-$$
-\Theta \left( g\left( n \right)  \right) =\left\{ f\left( n \right) |0\le {c}_{1}\cdot g\left( n \right) \le f\left( n \right) \le {c}_{2}\cdot g\left( n \right) \quad for\quad all\quad n\ge { n }_{ 0 }>0 \right\} \quad for\quad\exist\quad {c}_{1},{c}_{2}>0
-$$
-<img src="https://i.imgur.com/Bx7ykk3.png" alt="img" style="zoom:80%;" />
 
-- g(n)을 함수 f(n)의 **점근적 상한 및 하한의 교집합 (Asymptotically Tight Bound)**이라고 한다.
-- n<sub>0</sub>보다 오른쪽에 있는 모든 n에 대해서 함수 f(n)의 값은 c<sub>1</sub>g(n)과 같거나 위쪽에(큼) 있고 c<sub>2</sub>g(n)과 같거나 아래쪽에(작음) 있다.
+![image-20200109190010458](C:\Users\김연정\AppData\Roaming\Typora\typora-user-images\image-20200109190010458.png)
+
+<img src="https://i.imgur.com/Bx7ykk3.png" alt="img" style="zoom:60%;" align="center" />
+
+- g(n)을 함수 f(n)의 **점근적 상한 및 하한의 교집합 (Asymptotically Tight Bound)** 이라고 한다.
+
+- n<sub>0</sub>보다 오른쪽에 있는 모든 n에 대해서 함수 f(n)의 값은 c<sub>1</sub>g(n)과 같거나 위쪽에(큼) 있고
+
+  c<sub>2</sub>g(n)과 같거나 아래쪽에(작음) 있다.
+
 - 주어진 알고리즘이 아무리 좋거나 나쁘더라도 비교하는 함수의 범위 안에 있다.
 
 <br>
 
 #### # o Notation (리틀-오 표기법) - 보다 엄격한 최악의 경우
 
-$$
-O\left( g\left( n \right)  \right) =\left\{ f\left( n \right) |0\le f\left( n \right) < c\cdot g\left( n \right) \quad for\quad all\quad n\ge { n }_{ 0 }>0 \right\} \quad for\quad\forall\quad c>0 \\another \quad view:\quad\lim _{ n\rightarrow \infty  }{ \frac { f\left( x \right)  }{ g\left( x \right)  }  } = 0
-$$
+![image-20200109190139314](C:\Users\김연정\AppData\Roaming\Typora\typora-user-images\image-20200109190139314.png)
 
 - g(n)을 함수 f(n)의 점근적 상한 (Asymptotic Upper Bound) **보다 여유 있는 상한**이라고 한다.
 
@@ -76,17 +80,19 @@ $$
 
   Little O는 n이 무한대로 커지는 상황에서만 사용되는 개념이다.
 
-- g(n)의 절댓값에 어떤 작은 양의 숫자 c를 곱해도 f(n)보다 커지는 순간이 n을 키우다 보면 언젠가는 나타난다. (모든 양의 상수가 성립해야 한다)
+- g(n)의 절댓값에 어떤 작은 양의 숫자 c를 곱해도 f(n)보다 커지는 순간이 n을 키우다 보면 언젠가는 나타난다.
 
-- '어떤 작은 양의 숫자 c를 곱해도'라는 조건이 추가되었기 때문에 빅-오 보다 조건이 더욱 엄격하다. (리틀-오를 성립한다면 빅-오도 성립)
+  (모든 양의 상수가 성립해야 한다)
+
+- '어떤 작은 양의 숫자 c를 곱해도'라는 조건이 추가되었기 때문에 빅-오 보다 조건이 더욱 엄격하다.
+
+  (리틀-오를 성립한다면 빅-오도 성립한다)
 
 <br>
 
 #### # ω Notation (리틀-오메가 표기법) - 보다 엄격한 최선의 경우
 
-$$
-\Omega\left( g\left( n \right)  \right) =\left\{ f\left( n \right) |0< c\cdot g\left( n \right) \le f\left( n \right) \quad for\quad all\quad n\ge { n }_{ 0 }>0 \right\} \quad for\quad\forall\quad c>0 \\another \quad view:\quad\lim _{ n\rightarrow \infty  }{ \frac { f\left( x \right)  }{ g\left( x \right)  }  } =\infty
-$$
+![image-20200109190249683](C:\Users\김연정\AppData\Roaming\Typora\typora-user-images\image-20200109190249683.png)
 
 - g(n)을 함수 f(n)의 점근적 하한 (Asymptotic Lower Bound) **보다 여유 있는 하한**이라고 한다.
 
@@ -106,7 +112,7 @@ $$
 
 다섯 집합 사이의 관계를 따져보면 다음과 같다.
 
-<img src="https://i.imgur.com/tMfg0j8.png" alt="img" style="zoom:45%;" />
+<img src="https://i.imgur.com/tMfg0j8.png" alt="img" style="zoom:60%;" />
 
 <br>
 
@@ -197,8 +203,9 @@ faster ![img](https://t1.daumcdn.net/cfile/tistory/995DFD335C7EB57801) slower
 
 #### 참고
 
-###### [블로그] [https://ratsgo.github.io](https://ratsgo.github.io/data structure&algorithm/2017/09/13/asymptotic/) - 그림, 내용
+###### [블로그] [https://ratsgo.github.io](https://ratsgo.github.io/data%20structure&algorithm/2017/09/13/asymptotic/) - 그림, 내용
 
 ###### [블로그] [https://noahlogs.tistory.com](https://noahlogs.tistory.com/27) - 그림
 
 ###### [블로그] [https://sdolnote.tistory.com](https://sdolnote.tistory.com/entry/BigOLittleo) - 내용
+
