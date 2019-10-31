@@ -1,4 +1,4 @@
-# 알고리즘 개요 3
+알고리즘 개요 3
 
 <br>
 
@@ -16,9 +16,9 @@
 
 : O(g(n)) = { f(n) : n ≥ n<sub>0</sub> 인 모든 n에 대해 0 ≤ f(n) ≤ cg(n) 를 만족하는 양수 상수 c 와 n<sub>0</sub> 가 존재 }
 
-![bigo](C:\Users\김연정\Desktop\bigo.JPG)
+![bigo](https://user-images.githubusercontent.com/33328991/72200535-fbef0480-348d-11ea-9c8f-7234c86d2e88.JPG)
 
-<img src="https://i.imgur.com/QmfDswm.png" alt="img" width="30%" align="center" />
+<center><img src="https://i.imgur.com/QmfDswm.png" alt="img" width="30%" /></center>
 
 - g(n)을 함수 f(n)의 **점근적 상한 (Asymptotic Upper Bound)** 이라고 한다.
 
@@ -36,9 +36,9 @@
 
 : Ω(g(n)) = { f(n) : n ≥ n<sub>0</sub> 인 모든 n에 대해 0 ≤ cg(n) ≤ f(n)를 만족하는 양수 상수 c 와 n<sub>0</sub> 가 존재 }
 
-![bigomega](C:\Users\김연정\Desktop\bigomega.JPG)
+![bigomega](https://user-images.githubusercontent.com/33328991/72200538-09a48a00-348e-11ea-9728-9a0e73917754.JPG)
 
-<img src="https://i.imgur.com/1Hnuy1s.png" alt="img" width="30%" align="center" />
+<center><img src="https://i.imgur.com/1Hnuy1s.png" alt="img" width="30%" /></center>
 
 - g(n)을 함수 f(n)의 **점근적 하한 (Asymptotic Lower Bound)** 이라고 한다.
 
@@ -56,9 +56,9 @@
 
 : Θ(g(n)) = { f(n) : n ≥ n<sub>0</sub> 인 모든 n에 대해 0 ≤ c<sub>1</sub>g(n) ≤ f(n) ≤ c<sub>2</sub>g(n) 을 만족하는 양수 상수 c<sub>1</sub>, c<sub>2</sub>와 n<sub>0</sub> 가 존재 }
 
-![bigtheta](C:\Users\김연정\Desktop\bigtheta.JPG)
+![bigtheta](https://user-images.githubusercontent.com/33328991/72200541-13c68880-348e-11ea-9d86-892db3cec3c4.JPG)
 
-<img src="https://i.imgur.com/Bx7ykk3.png" alt="img" width="30%" align="center" />
+<center><img src="https://i.imgur.com/Bx7ykk3.png" alt="img" width="30%" /></center>
 
 - g(n)을 함수 f(n)의 **점근적 상한 및 하한의 교집합 (Asymptotically Tight Bound)** 이라고 한다.
 
@@ -72,7 +72,7 @@
 
 #### # o Notation (리틀-오 표기법) - 보다 엄격한 최악의 경우
 
-![littleo](C:\Users\김연정\Desktop\littleo.JPG)
+![littleo](https://user-images.githubusercontent.com/33328991/72200552-2771ef00-348e-11ea-848f-10b14b435045.JPG)
 
 - g(n)을 함수 f(n)의 점근적 상한 (Asymptotic Upper Bound) **보다 여유 있는 상한**이라고 한다.
 
@@ -92,7 +92,7 @@
 
 #### # ω Notation (리틀-오메가 표기법) - 보다 엄격한 최선의 경우
 
-![littleomega](C:\Users\김연정\Desktop\littleomega.JPG)
+![littleomega](https://user-images.githubusercontent.com/33328991/72200547-1de88700-348e-11ea-9e0a-f3e8fdcf2010.JPG)
 
 - g(n)을 함수 f(n)의 점근적 하한 (Asymptotic Lower Bound) **보다 여유 있는 하한**이라고 한다.
 
@@ -112,7 +112,7 @@
 
 다섯 집합 사이의 관계를 따져보면 다음과 같다.
 
-<img src="https://i.imgur.com/tMfg0j8.png" alt="img" width="50%" align="center" />
+<center><img src="https://i.imgur.com/tMfg0j8.png" alt="img" width="50%" /></center>
 
 <br>
 
