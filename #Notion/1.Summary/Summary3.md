@@ -16,9 +16,9 @@
 
 : O(g(n)) = { f(n) : n ≥ n<sub>0</sub> 인 모든 n에 대해 0 ≤ f(n) ≤ cg(n) 를 만족하는 양수 상수 c 와 n<sub>0</sub> 가 존재 }
 
-![image-20200109185716982](C:\Users\김연정\AppData\Roaming\Typora\typora-user-images\image-20200109185716982.png)
+![bigo](C:\Users\김연정\Desktop\bigo.JPG)
 
-<img src="https://i.imgur.com/QmfDswm.png" alt="img" style="zoom:70%;" />
+<img src="https://i.imgur.com/QmfDswm.png" alt="img" width="30%" align="center" />
 
 - g(n)을 함수 f(n)의 **점근적 상한 (Asymptotic Upper Bound)** 이라고 한다.
 
@@ -36,9 +36,9 @@
 
 : Ω(g(n)) = { f(n) : n ≥ n<sub>0</sub> 인 모든 n에 대해 0 ≤ cg(n) ≤ f(n)를 만족하는 양수 상수 c 와 n<sub>0</sub> 가 존재 }
 
-![image-20200109185913377](C:\Users\김연정\AppData\Roaming\Typora\typora-user-images\image-20200109185913377.png)
+![bigomega](C:\Users\김연정\Desktop\bigomega.JPG)
 
-<img src="https://i.imgur.com/1Hnuy1s.png" alt="img" style="zoom: 70%;" />
+<img src="https://i.imgur.com/1Hnuy1s.png" alt="img" width="30%" align="center" />
 
 - g(n)을 함수 f(n)의 **점근적 하한 (Asymptotic Lower Bound)** 이라고 한다.
 
@@ -56,9 +56,9 @@
 
 : Θ(g(n)) = { f(n) : n ≥ n<sub>0</sub> 인 모든 n에 대해 0 ≤ c<sub>1</sub>g(n) ≤ f(n) ≤ c<sub>2</sub>g(n) 을 만족하는 양수 상수 c<sub>1</sub>, c<sub>2</sub>와 n<sub>0</sub> 가 존재 }
 
-![image-20200109190010458](C:\Users\김연정\AppData\Roaming\Typora\typora-user-images\image-20200109190010458.png)
+![bigtheta](C:\Users\김연정\Desktop\bigtheta.JPG)
 
-<img src="https://i.imgur.com/Bx7ykk3.png" alt="img" style="zoom:60%;" align="center" />
+<img src="https://i.imgur.com/Bx7ykk3.png" alt="img" width="30%" align="center" />
 
 - g(n)을 함수 f(n)의 **점근적 상한 및 하한의 교집합 (Asymptotically Tight Bound)** 이라고 한다.
 
@@ -72,7 +72,7 @@
 
 #### # o Notation (리틀-오 표기법) - 보다 엄격한 최악의 경우
 
-![image-20200109190139314](C:\Users\김연정\AppData\Roaming\Typora\typora-user-images\image-20200109190139314.png)
+![littleo](C:\Users\김연정\Desktop\littleo.JPG)
 
 - g(n)을 함수 f(n)의 점근적 상한 (Asymptotic Upper Bound) **보다 여유 있는 상한**이라고 한다.
 
@@ -92,7 +92,7 @@
 
 #### # ω Notation (리틀-오메가 표기법) - 보다 엄격한 최선의 경우
 
-![image-20200109190249683](C:\Users\김연정\AppData\Roaming\Typora\typora-user-images\image-20200109190249683.png)
+![littleomega](C:\Users\김연정\Desktop\littleomega.JPG)
 
 - g(n)을 함수 f(n)의 점근적 하한 (Asymptotic Lower Bound) **보다 여유 있는 하한**이라고 한다.
 
@@ -101,7 +101,7 @@
 #### # 표기법 간의 관계
 
 |   표기법   |         대략적 의미         |
-| :--------: | :-------------------------: |
+| :--------: | ------------------------- |
 | **f=ω(g)** |    f는 g보다 크다,  f>g     |
 | **f=Ω(g)** | f는 g보다 크거나 같다,  f≥g |
 | **f=Θ(g)** |   f는 g와 대략 같다,  f=g   |
@@ -112,7 +112,7 @@
 
 다섯 집합 사이의 관계를 따져보면 다음과 같다.
 
-<img src="https://i.imgur.com/tMfg0j8.png" alt="img" style="zoom:60%;" />
+<img src="https://i.imgur.com/tMfg0j8.png" alt="img" width="50%" align="center" />
 
 <br>
 
@@ -127,7 +127,7 @@
 #### # Big-O 표기법의 종류
 
 |       Notation       |          Name          |
-| :------------------: | :--------------------: |
+| ------------------ | -------------------- |
 |       **O(1)**       |    Constant (상수)     |
 |     **O(log n)**     |   Logarithmic (로그)   |
 |       **O(n)**       |     Linear (선형)      |
