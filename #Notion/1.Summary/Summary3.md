@@ -17,7 +17,7 @@
 : O(g(n)) = { f(n) : n ≥ n<sub>0</sub> 인 모든 n에 대해 0 ≤ f(n) ≤ cg(n) 를 만족하는 양수 상수 c 와 n<sub>0</sub> 가 존재 }
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/33328991/72200874-dfed6200-3491-11ea-9d2f-0dde0848b2bb.JPG" alt="bigo" />
+    <img src="https://user-images.githubusercontent.com/33328991/72201144-6d31b600-3494-11ea-91f8-b28be835c9e4.JPG" alt="bigo" />
     <img src="https://i.imgur.com/QmfDswm.png" alt="img" width="30%" />
 </p>
 
@@ -38,7 +38,7 @@
 : Ω(g(n)) = { f(n) : n ≥ n<sub>0</sub> 인 모든 n에 대해 0 ≤ cg(n) ≤ f(n)를 만족하는 양수 상수 c 와 n<sub>0</sub> 가 존재 }
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/33328991/72200893-001d2100-3492-11ea-8313-d72cff50f592.JPG" alt="bigomega" />
+    <img src="https://user-images.githubusercontent.com/33328991/72201145-6dca4c80-3494-11ea-806f-1d6a124a701e.JPG" alt="bigomega" />
     <img src="https://i.imgur.com/1Hnuy1s.png" alt="img" width="30%" />
 </p>
 
@@ -59,7 +59,7 @@
 : Θ(g(n)) = { f(n) : n ≥ n<sub>0</sub> 인 모든 n에 대해 0 ≤ c<sub>1</sub>g(n) ≤ f(n) ≤ c<sub>2</sub>g(n) 을 만족하는 양수 상수 c<sub>1</sub>, c<sub>2</sub>와 n<sub>0</sub> 가 존재 }
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/33328991/72200900-0b704c80-3492-11ea-81a9-758ac426a77a.JPG" alt="bigtheta" />
+    <img src="https://user-images.githubusercontent.com/33328991/72201146-6efb7980-3494-11ea-9de3-afb803a2cf28.JPG" alt="bigtheta" />
     <img src="https://i.imgur.com/Bx7ykk3.png" alt="img" width="30%" />
 </p>
 
@@ -75,7 +75,7 @@
 
 #### # o Notation (리틀-오 표기법) - 보다 엄격한 최악의 경우
 
-<p align="center"><img src="https://user-images.githubusercontent.com/33328991/72200902-16c37800-3492-11ea-9d4d-9931c280902f.JPG" alt="littleo" /></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/33328991/72201147-702ca680-3494-11ea-9014-f1755448e08a.JPG" alt="littleo" /></p>
 
 - g(n)을 함수 f(n)의 점근적 상한 (Asymptotic Upper Bound) **보다 여유 있는 상한**이라고 한다.
 
@@ -95,7 +95,7 @@
 
 #### # ω Notation (리틀-오메가 표기법) - 보다 엄격한 최선의 경우
 
-<p align="center"><img src="https://user-images.githubusercontent.com/33328991/72200906-2347d080-3492-11ea-893e-3258063c9d69.JPG" alt="littleomega" /></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/33328991/72201148-715dd380-3494-11ea-80b6-c300d99a0a52.JPG" alt="littleomega" /></p>
 
 - g(n)을 함수 f(n)의 점근적 하한 (Asymptotic Lower Bound) **보다 여유 있는 하한**이라고 한다.
 
@@ -116,7 +116,6 @@
 다섯 집합 사이의 관계를 따져보면 다음과 같다.
 
 <p align="center"><img src="https://i.imgur.com/tMfg0j8.png" alt="img" width="50%" /></p>
-
 <br>
 
 ******
@@ -140,65 +139,67 @@
 | **O(2<sup>n</sup>)** |   Exponential (지수)   |
 |      **O(n!)**       |  Factorial (팩토리얼)  |
 
-- O(1) - 문제를 해결하는데 오직 한 단계만 거친다. 입력 데이터와 상관없이 일정한 실행 시간을 가진다.
+- O(1)
 
-  스택에서 push, pop
+  - 문제를 해결하는데 오직 한 단계만 거친다.
+  - 입력 데이터와 상관없이 일정한 실행 시간을 가진다.
+    - 스택에서 push, pop
 
-- O(log n) - 문제를 해결하는 데 필요한 단계들이 연산마다 특정 요인에 의해 줄어든다. 
+- O(log n)
 
-  ​				입력 데이터가 증가하면 실행 시간이 조금씩 증가한다.
+  - 문제를 해결하는 데 필요한 단계들이 연산마다 특정 요인에 의해 줄어든다. 
 
-  ​				주로 커다란 문제를 일정한 크기를 갖는 작은 문제로 쪼갤 때 나타나는 유형이다.
+  - 입력 데이터가 증가하면 실행 시간이 조금씩 증가한다.
 
-  ​				(성능이 좋은 탐색 알고리즘은 대부분 log n의 수행 시간을 가진다.)
+  - 주로 커다란 문제를 일정한 크기를 갖는 작은 문제로 쪼갤 때 나타나는 유형이다.
 
-  이진 트리, 이진 검색
+    (성능이 좋은 탐색 알고리즘은 대부분 log n의 수행 시간을 가진다.)
 
-- O(n) - 문제를 해결하기 위한 단계의 수와 입력값이 1:1 관계를 가진다. 입력 데이터 수와 비례하여 실행 시간이 선형적으로 증가한다.
+    - 이진 트리, 이진 검색
 
-  for문, 순차 검색
+- O(n) 
 
-- O(n log n) - 입력 데이터가 늘어난 양보다 조금 더 늘어난 실행 시간을 가진다.
+  - 문제를 해결하기 위한 단계의 수와 입력값이 1:1 관계를 가진다.
+  - 입력 데이터 수와 비례하여 실행 시간이 선형적으로 증가한다.
+  - for문, 순차 검색
 
-주로 커다란 문제를 나누어 해결하고 이를 다시 합치는 과정에서 나타나는 유형이다.
+- O(n log n)
 
-n이 두 배로 늘어나면 실행 시간은 두 배보다 약간 더 많이 늘어난다.
+  - 입력 데이터가 늘어난 양보다 조금 더 늘어난 실행 시간을 가진다.
+  - 주로 커다란 문제를 나누어 해결하고 이를 다시 합치는 과정에서 나타나는 유형이다.
+  - n이 두 배로 늘어나면 실행 시간은 두 배보다 약간 더 많이 늘어난다.
+    - 퀵 정렬, 합병 정렬, 힙 정렬
 
-퀵 정렬, 합병 정렬, 힙 정렬
+- O(n<sup>2</sup>)
+- 문제를 해결하기 위한 단계의 수는 입력값 n의 제곱이다.
+  - 입력 데이터가 커질수록 배수로 늘어나는 실행 시간을 가진다.
+- 데이터의 제곱에 비례하여 효율이 좋지 않다.
+  - n이 두 배면 수행 시간은 네 배로 늘어나고 데이터가 많으면 감당할 수 없다.
+- 주로 이중 루프 내에서 입력 자료를 처리하는 경우에 나타나는 유형이다.
+  - 이중 for 문, 삽입 정렬, 버블 정렬, 선택 정렬
+- O(n<sup>3</sup>)
+  - 입력 데이터가 커질수록 배수로 늘어나는 실행 시간을 가진다.
+  - n이 두 배면 수행 시간은 여덟 배로 늘어나고 데이터가 많으면 감당할 수 없다.
+  - 주로 삼중 루프 내에서 입력 자료를 처리하는 경우에 나타나는 유형이다.
 
-- O(n<sup>2</sup>) - 문제를 해결하기 위한 단계의 수는 입력값 n의 제곱이다.
+- O(2<sup>n</sup>)
+  - 문제를 해결하기 위한 단계의 수는 주어진 상숫값(c) 의 n 제곱이다.
+  - 입력 데이터가 증가하면 실행 시간이 급격하게 증가한다.
+    - 피보나치 수열
 
-  입력 데이터가 커질수록 배수로 늘어나는 실행 시간을 가진다. 데이터의 제곱에 비례하여 효율이 좋지 않다.
-
-  n이 두 배면 수행 시간은 네 배로 늘어나고 데이터가 많으면 감당할 수 없다.
-
-  주로 이중 루프 내에서 입력 자료를 처리하는 경우에 나타나는 유형이다.
-
-  이중 for 문, 삽입 정렬, 버블 정렬, 선택 정렬
-
-- O(n<sup>3</sup>) - 입력 데이터가 커질수록 배수로 늘어나는 실행 시간을 가진다.
-
-n이 두 배면 수행 시간은 여덟 배로 늘어나고 데이터가 많으면 감당할 수 없다.
-
-주로 삼중 루프 내에서 입력 자료를 처리하는 경우에 나타나는 유형이다.
-
-- O(2<sup>n</sup>) - 문제를 해결하기 위한 단계의 수는 주어진 상숫값(c) 의 n 제곱이다. 입력 데이터가 증가하면 실행 시간이 급격하게 증가한다.
-
-피보나치 수열
-
-- O(n!) - 입력 데이터에 따라 데이터의 양이 팩토리얼만큼 증가한다.
+- O(n!)
+  - 입력 데이터에 따라 데이터의 양이 팩토리얼만큼 증가한다.
 
 <br>
 
 #### # 성능 비교
 
 <p align="center"><img src="https://t1.daumcdn.net/cfile/tistory/99EF1E395C7EB4B601" alt="img" width="70%" /></p>
-
 그래프에 나와 있는 시간 복잡도의 성능을 비교하면 다음과 같다.
 
 (왼쪽에서 오른쪽으로 갈수록 효율성이 떨어진다.)
 
-<div align="center">faster   <img src="https://t1.daumcdn.net/cfile/tistory/995DFD335C7EB57801" alt="img" />   slower</div>
+<div align="center">faster&emsp;&emsp;<img src="https://t1.daumcdn.net/cfile/tistory/995DFD335C7EB57801" alt="img" />&emsp;&emsp;slower</div>
 
 <br>
 
