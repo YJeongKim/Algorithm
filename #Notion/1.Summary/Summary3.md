@@ -75,7 +75,10 @@
 
 #### # o Notation (리틀-오 표기법) - 보다 엄격한 최악의 경우
 
-<p align="center"><img src="https://user-images.githubusercontent.com/33328991/72201147-702ca680-3494-11ea-9014-f1755448e08a.JPG" alt="littleo" /></p>
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/33328991/72201147-702ca680-3494-11ea-9014-f1755448e08a.JPG" alt="littleo" />
+</p>
+
 - g(n)을 함수 f(n)의 점근적 상한 (Asymptotic Upper Bound) **보다 여유 있는 상한**이라고 한다.
 
 - Big O는 n이 무한대로 커질 때만이 아니라 특정 값에 가까워질 때에 대해서도 사용될 수 있는 개념인데,
@@ -94,7 +97,10 @@
 
 #### # ω Notation (리틀-오메가 표기법) - 보다 엄격한 최선의 경우
 
-<p align="center"><img src="https://user-images.githubusercontent.com/33328991/72201148-715dd380-3494-11ea-80b6-c300d99a0a52.JPG" alt="littleomega" /></p>
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/33328991/72201148-715dd380-3494-11ea-80b6-c300d99a0a52.JPG" alt="littleomega" />
+</p>
+
 - g(n)을 함수 f(n)의 점근적 하한 (Asymptotic Lower Bound) **보다 여유 있는 하한**이라고 한다.
 
 <br>
