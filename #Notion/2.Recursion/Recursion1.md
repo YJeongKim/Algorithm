@@ -110,13 +110,13 @@ public class Recursion03 {
 
 func(int n) 함수의 미션은 0부터 n까지의 합을 구하는 것이다.
 
-- (n=0)   n이 0이라면 합은 0이다.
+- (n=0)&emsp;n이 0이라면 합은 0이다.
 
-- (n>0)   n이 0보다 크다면 0에서 n까지의 합은 **0에서 n-1까지의 합에 n을 더한 것**이다.
+- (n>0)&emsp;n이 0보다 크다면 0에서 n까지의 합은 **0에서 n-1까지의 합에 n을 더한 것**이다.
 
 
 
-*** 순환함수와 수학적귀납법**
+**▶ 순환함수와 수학적귀납법**
 
 > 정리 : func(int n)은 음이 아닌 정수 n에 대해서 0에서 n까지의 합을 올바로 계산한다.
 >
@@ -153,13 +153,13 @@ public class Recursion04 {
 
 factorial의 정의는 다음과 같다.
 
-- (n=0)   0! = 1
+- (n=0)&emsp;0! = 1
 
-- (n>0)   n! = n * (n-1)!
+- (n>0)&emsp;n! = n * (n-1)!
 
 
 
-*** 순환함수와 수학적귀납법**
+**▶ 순환함수와 수학적귀납법**
 
 > 정리 : factorial(int n)은 음이 아닌 정수 n에 대해서 n!을 올바로 계산한다.
 >
@@ -196,9 +196,9 @@ public class Recursion05 {
 
 x<sup>n</sup>(x의 n승)의 정의는 다음과 같다.
 
-- (n=0)   x<sup>0</sup> = 1
+- (n=0)&emsp;x<sup>0</sup> = 1
 
-- (n>0)   x<sup>n</sup> = x * x<sup>n-1</sup>
+- (n>0)&emsp;x<sup>n</sup> = x * x<sup>n-1</sup>
 
 <br>
 
@@ -208,8 +208,8 @@ x<sup>n</sup>(x의 n승)의 정의는 다음과 같다.
 public class Recursion06 {
 	public static void main(String[] args) {
 		int result = fibonacci(4); // result = 3 = f(3) + f(2) 
-								   // = f(2) + f(1) + f(1) + f(0)
-        						   // = f(1) + f(0) + 1 + 1 + 0 = 1 + 0 + 1 + 1 + 0
+					   // = f(2) + f(1) + f(1) + f(0)
+        				   // = f(1) + f(0) + 1 + 1 + 0 = 1 + 0 + 1 + 1 + 0
 	}
     
 	public static int fibonacci(int n) {
@@ -223,11 +223,11 @@ public class Recursion06 {
 
 fibonacci의 정의는 다음과 같다.
 
-- (n=0)   f<sub>0</sub> = 0
+- (n=0)&emsp;f<sub>0</sub> = 0
 
-- (n=1)   f<sub>1</sub> = 1
+- (n=1)&emsp;f<sub>1</sub> = 1
 
-- (n>1)   f<sub>n</sub> = f<sub>n-1</sub> + f<sub>n-2</sub>
+- (n>1)&emsp;f<sub>n</sub> = f<sub>n-1</sub> + f<sub>n-2</sub>
 
 첫째 및 둘째 항이 1이며 그 뒤의 모든 항은 바로 앞 두 항의 합이다.
 
@@ -259,9 +259,9 @@ public class Recursion07 {
 
 m >= n인 두 양의 정수 m과 n에 대해서 최대공약수를 다음과 같이 구한다.
 
-- (m이 n의 배수이면)   gcd(m, n) = n
+- (m이 n의 배수이면)&emsp;&nbsp;gcd(m, n) = n
 
-- (그렇지 않으면)          gcd(m, n) = gcd(n, m%n)
+- (그렇지 않으면)&emsp;&emsp;&emsp;gcd(m, n) = gcd(n, m%n)
 
 다음 코드는 좀 더 단순하게 최대공약수를 구하는 방법이다.
 
@@ -282,9 +282,9 @@ public class Recursion08 {
 
 p >= q인 두 양의 정수 p과 q에 대해서 최대공약수를 다음과 같이 구한다.
 
-- (q=0)   gcd(p, q) = p
+- (q=0)&emsp;gcd(p, q) = p
 
-- (q>0)   gcd(p, q) = gcd(q, p%q)
+- (q>0)&emsp;gcd(p, q) = gcd(q, p%q)
 
 <br>
 
