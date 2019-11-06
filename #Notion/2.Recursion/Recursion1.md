@@ -221,7 +221,7 @@ public class Recursion03 {
 }
 ```
 
-func(int n) 함수의 미션은 0부터 n까지의 합을 구하는 것이다.
+func(int n) 의 미션은 0부터 n까지의 합을 구하는 것이다.
 
 - (n=0)&emsp;n이 0이라면 합은 0이다.
 
