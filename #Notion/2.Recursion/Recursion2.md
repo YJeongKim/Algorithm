@@ -286,7 +286,7 @@ else
 public class Recursion09 {
 	public static void main(String[] args) {
 		int result = length("abc"); // result = 3 = 1 + length("bc") 
-									// = 1 + 1 + length("c") = 1 + 1 + 1 + length("")
+					// = 1 + 1 + length("c") = 1 + 1 + 1 + length("")
 	}
 
 	public static int length(String str) {
@@ -306,8 +306,8 @@ public class Recursion09 {
 public class Recursion10 {
 	public static void main(String[] args) {
 		printChars("abc"); // "abc" = "a" + printChars("bc")
-						// = "ab" + printChars("c") 
-						// = "abc" + printChars("")
+				// = "ab" + printChars("c") 
+				// = "abc" + printChars("")
 	}
 
 	public static void printChars(String str) {
@@ -316,7 +316,7 @@ public class Recursion10 {
 		else {
 			System.out.print(str.charAt(0)); // 첫 글자를 먼저 출력
 			printChars(str.substring(1)); // 첫 글자를 제외한 후 재귀호출
-        }
+		}
 	}
 }
 ```
@@ -333,8 +333,8 @@ public class Recursion10 {
 public class Recursion11 {
 	public static void main(String[] args) {
 		printCharsReverse("abc"); // "cba" = printCharsReverse("bc") + "a"
-								// = printCharsReverse("c") + "ba" 
-								// = printCharsReverse("") + "cba"
+					// = printCharsReverse("c") + "ba" 
+					// = printCharsReverse("") + "cba"
 	}
 
 	public static void printCharsReverse(String str) {
@@ -343,7 +343,7 @@ public class Recursion11 {
 		else {
 			printCharsReverse(str.substring(1)); // 첫 글자를 제외한 후 재귀호출
 			System.out.print(str.charAt(0)); // 첫 글자를 출력
-        }
+		}
 	}
 }
 ```
@@ -358,9 +358,9 @@ public class Recursion11 {
 public class Recursion12 {
 	public static void main(String[] args) {
 		printInBinary(10); // = printCharsReverse(10/2) + 10%2
-						// = printCharsReverse(5/2) + 5%2 + 10%2 
-						// = printCharsReverse(2/2) + 2%2 + 5%2 + 10%2
-						// = 1 0 1 0
+				// = printCharsReverse(5/2) + 5%2 + 10%2 
+				// = printCharsReverse(2/2) + 2%2 + 5%2 + 10%2
+				// = 1 0 1 0
 	}
 
 	public static void printInBinary(int n) {
@@ -369,7 +369,7 @@ public class Recursion12 {
 		else {
 			printInBinary(n/2); // n을 2로 나눈 몫을 먼저 2진수로 변환
 			System.out.print(n%2); // n을 2로 나눈 나머지를 출력
-        }
+		}
 	}
 }
 ```
@@ -403,16 +403,16 @@ public class Recursion13 {
 	public static void main(String[] args) {
         int[] data = { 2, 4, 6 };
 		sum(3, data); // = sum(2, data) + data[2]
-					// = sum(1, data) + data[1] + data[2]
-					// = sum(0, data) + data[0] + data[1] + data[2] 
-					// = 0 + 2 + 4 + 6 = 12
+				// = sum(1, data) + data[1] + data[2]
+				// = sum(0, data) + data[0] + data[1] + data[2] 
+				// = 0 + 2 + 4 + 6 = 12
 	}
 
 	public static int sum(int n, int[] data) {
 		if(n<=0)
 			return 0;
 		else
-            return sum(n-1, data) + data[n-1];
+			return sum(n-1, data) + data[n-1];
 	}
 }
 ```
@@ -453,7 +453,7 @@ public class Recursion14 {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-    }
+	}
 }
 ```
 
