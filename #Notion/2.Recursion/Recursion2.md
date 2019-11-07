@@ -441,8 +441,8 @@ class Sub {
 
 public class Recursion14 {
 	public static void main(String[] args) {
-        int[] data = new int[5];
-        Sub sub = new Sub();
+		int[] data = new int[5];
+		Sub sub = new Sub();
 		File file = new File("D:\\data.txt");
 		Scanner in;
 		try {
