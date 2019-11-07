@@ -247,8 +247,228 @@ func(int n, int k) {
 <br>
 
 ******
+
+<br>
+
+> ### Recursion의 기본 예제
+
+<br>
+
+#### # Recursive Thinking : 순환적으로 사고하기
+
+: Recursion은 수학함수 계산에만 유용한가?
+
+ → 수학함수뿐 아니라 다른 많은 문제들을 Recursion으로 해결할 수 있다.
+
+<br>
+
+#### # 문자열의 길이 계산
+
+일반적으로 문자열의 길이를 계산한다면 반복문을 이용해서 앞에서부터 순서대로 문자를 하나씩 세면 된다.
+
+그러나 순환적으로 생각해본다면 다음 그림처럼 첫 번째 문자를 제외한 나머지 문자열의 길이에 1을 더하면 된다.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/33328991/72266776-65c00780-3662-11ea-85f9-c807225a0615.png" alt="string" width="60%" />
+</p>
+
+```c
+if the string is empty
+	return 0;
+else
+	return 1 plus the length of the string that
+		excludes the first character;
+```
+
+이를 코드로 표현하면 다음과 같다.
+
+```java
+public class Recursion09 {
+	public static void main(String[] args) {
+		int result = length("abc"); // result = 3 = 1 + length("bc") 
+									// = 1 + 1 + length("c") = 1 + 1 + 1 + length("")
+	}
+
+	public static int length(String str) {
+		if(str.equals(""))
+			return 0;
+		else
+			return 1 + length(str.substring(1)); // 첫 글자를 제외한 후 재귀호출
+	}
+}
+```
+
+<br>
+
+#### # 문자열의 프린트
+
+```java
+public class Recursion10 {
+	public static void main(String[] args) {
+		printChars("abc"); // "abc" = "a" + printChars("bc")
+						// = "ab" + printChars("c") 
+						// = "abc" + printChars("")
+	}
+
+	public static void printChars(String str) {
+		if(str.length()==0)
+			return;
+		else {
+			System.out.print(str.charAt(0)); // 첫 글자를 먼저 출력
+			printChars(str.substring(1)); // 첫 글자를 제외한 후 재귀호출
+        }
+	}
+}
+```
+
+입력으로 들어온 문자열을 화면에 출력하는 메소드이다.
+
+위와 비슷한 방식으로 첫 글자를 먼저 화면에 출력한 후, 출력한 첫 글자를 제외하고 재귀호출을 한다.
+
+반대로 문자열을 뒤집어 프린트하려면 다음과 같이 할 수 있다.
+
+먼저 첫 글자를 제외한 문자열을 뒤집어 프린트한 후 마지막으로 첫 글자를 프린트하면 된다. 
+
+```java
+public class Recursion11 {
+	public static void main(String[] args) {
+		printCharsReverse("abc"); // "cba" = printCharsReverse("bc") + "a"
+								// = printCharsReverse("c") + "ba" 
+								// = printCharsReverse("") + "cba"
+	}
+
+	public static void printCharsReverse(String str) {
+		if(str.length()==0)
+			return;
+		else {
+			printCharsReverse(str.substring(1)); // 첫 글자를 제외한 후 재귀호출
+			System.out.print(str.charAt(0)); // 첫 글자를 출력
+        }
+	}
+}
+```
+
+그대로 프린트하는 메소드와 뒤집어 프린트하는 메소드의 차이점은 else 구문의 메소드 호출 순서가 바뀐 것 뿐이다.
+
+<br>
+
+#### # 2진수로 변환
+
+```java
+public class Recursion12 {
+	public static void main(String[] args) {
+		printInBinary(10); // = printCharsReverse(10/2) + 10%2
+						// = printCharsReverse(5/2) + 5%2 + 10%2 
+						// = printCharsReverse(2/2) + 2%2 + 5%2 + 10%2
+						// = 1 0 1 0
+	}
+
+	public static void printInBinary(int n) {
+		if(n<2)
+			System.out.print(n);
+		else {
+			printInBinary(n/2); // n을 2로 나눈 몫을 먼저 2진수로 변환
+			System.out.print(n%2); // n을 2로 나눈 나머지를 출력
+        }
+	}
+}
+```
+
+printInBinary(int n) 은 음이 아닌 정수 n을 이진수로 변환하여 출력한다.
+
+2진수에서 마지막 비트가 0이라는 것은 짝수, 1이라는 것은 홀수를 의미한다.
+
+즉, 양의 정수 n의 2진수 **마지막 비트**는 그 정수 **n을 2로 나누었을 때의 나머지**인 n%2의 결과이다.
+
+마지막 비트를 제외한 **나머지 비트**는 **n을 2로 나누었을 때의 몫**을 2진수로 변환한 것이다.
+
+- n = 10&ensp;↔ &ensp;1010<sub>(2)</sub>
+
+  - 10 / 2 = 5&ensp;↔ 101<sub>(2)</sub>
+
+  - 10%2 = 0&ensp;← 마지막 bit
+
+- n = 15&ensp;↔ &ensp;1111<sub>(2)</sub>
+
+  - 15 / 2 = 7&ensp;↔ 111<sub>(2)</sub>
+  
+  - 15%2 = 1&ensp;← 마지막 bit
+
+<br>
+
+#### # 배열의 합
+
+```java
+public class Recursion13 {
+	public static void main(String[] args) {
+        int[] data = { 2, 4, 6 };
+		sum(3, data); // = sum(2, data) + data[2]
+					// = sum(1, data) + data[1] + data[2]
+					// = sum(0, data) + data[0] + data[1] + data[2] 
+					// = 0 + 2 + 4 + 6 = 12
+	}
+
+	public static int sum(int n, int[] data) {
+		if(n<=0)
+			return 0;
+		else
+            return sum(n-1, data) + data[n-1];
+	}
+}
+```
+
+data는 정수 배열이고, n은 배열에 저장된 data의 개수를 의미한다. data[0]에서 data[n-1]까지의 합을 구하여 반환한다.
+
+일반적으로는 sum을 0으로 선언하고 반복문을 이용하여 배열에 저장된 모든 값을 sum에 차례로 더하여 구한다.
+
+그러나 여기에서는 반복문을 이용하는 대신 recursion을 이용하여 처음 n-1개 data의 합을 구하고 마지막 data를 더한다.
+
+<br>
+
+#### # 데이터파일로부터 n개의 정수 읽어오기
+
+```java
+class Sub {
+	public void readFrom(int n, int[] data, Scanner in) {
+		if(n==0)
+			return;
+		else {
+			readFrom(n-1, data, in);
+			data[n-1] = in.nextInt();
+		}
+	}
+}
+
+public class Recursion14 {
+	public static void main(String[] args) {
+        int[] data = new int[5];
+        Sub sub = new Sub();
+		File file = new File("D:\\data.txt");
+		Scanner in;
+		try {
+			in = new Scanner(file);
+			sub.readFrom(5, data, in);
+			for(int num : data)
+				System.out.println(num);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+    }
+}
+```
+
+Scanner in이 참조하는 파일로부터 n개의 정수를 입력받아 배열 data의 data[0], ..., data[n-1]에 저장한다.
+
+흔치 않지만 이런 데이터를 읽어오는 것도 recursion으로 구현 가능하다.
+
+<br>
+
+******
 #### 참고
 
 ###### [강의] [인프런:영리한 프로그래밍을 위한 알고리즘 강좌](https://www.inflearn.com/course/알고리즘-강좌/lecture/4073)
 
 ###### [문서] 개인 소지 자료
+
+###### * 이미지는 자료를 참고하여 직접 그림
+
