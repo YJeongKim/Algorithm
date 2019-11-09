@@ -39,11 +39,11 @@ else {
 
 : 입력으로 어떤 데이터가 저장된 배열이 주어지고, 이 데이터 중 특정한 값이 있는지 검색한다.
 
-  만약 데이터들이 정렬되어있다면 "이진 검색"이 가능하다.
+ 만약 데이터들이 정렬되어있다면 "이진 검색"이 가능하다.
 
-  그렇지 않다면 하나씩 순서대로 데이터를 확인하여 검색하는 방법뿐이다.
+ 그렇지 않다면 하나씩 순서대로 데이터를 확인하여 검색하는 방법뿐이다.
 
-  이처럼 데이터를 하나씩 순차적으로 검색하여 판단하는 알고리즘을 **순차 탐색 (순차 검색)** 이라 한다.
+ 이처럼 데이터를 하나씩 순차적으로 검색하여 판단하는 알고리즘을 **순차 탐색 (순차 검색)** 이라 한다.
 
 <br>
 
@@ -189,7 +189,7 @@ int findMax(int[] data, int begin, int end) {
 	else {
 		int middle = (begin+end)/2;
 		int max1 = findMax(data, begin, middle); // 시작 지점 ~ 가운데 중 최대값
-		int max2 = findMax(data, middle +1, end); // 가운데 ~ 끝 지점 중 최대값
+		int max2 = findMax(data, middle+1, end); // 가운데 ~ 끝 지점 중 최대값
 		return Math.max(max1, max2); // 두 최대값을 비교
 	}
 }
@@ -201,15 +201,14 @@ int findMax(int[] data, int begin, int end) {
 
 : 데이터가 크기순으로 정렬되어있을 경우 적용할 수 있는 검색 알고리즘이다.
 
-  먼저 가운데 값을 찾는 값인 target과 비교하여 두 값이 동일하다면 검색을 완료한다.
+ 먼저 가운데 값을 찾는 값인 target과 비교하여 두 값이 동일하다면 검색을 완료한다.
 
-  가운데 값이 찾는 값보다 크다면 앞 부분을 검색하고, 작다면 뒷 부분을 검색한다.
+ 가운데 값이 찾는 값보다 크다면 앞 부분을 검색하고, 작다면 뒷 부분을 검색한다.
 
-  이진 검색 알고리즘은 그 알고리즘 자체가 본질적으로 recursive하다고 이야기 할 수 있다.
+ 이진 검색 알고리즘은 그 알고리즘 자체가 본질적으로 recursive하다고 이야기 할 수 있다.
 
 ```java
-public static int binarySearch(String[] items, String target, int begin, int end)
-{
+public static int binarySearch(String[] items, String target, int begin, int end) {
 	if(begin>end)
 		return -1;
 	else {
