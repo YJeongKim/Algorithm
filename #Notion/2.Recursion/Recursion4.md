@@ -182,7 +182,8 @@ public class Maze {
 	현재 픽셀이 image color라면
 		먼저 현재 픽셀을 카운트한다. (count=1)
 		현재 픽셀이 중복 카운트되는 것을 방지하기위해 다른 색을 칠한다.
-		현재 픽셀에 이웃한 모든 픽셀들에 대해서 그 픽셀이 속한 blob의 크기를 카운트하여 카운터에 더해준다.
+		현재 픽셀에 이웃한 모든 픽셀들에 대해서
+			그 픽셀이 속한 blob의 크기를 카운트하여 카운터에 더해준다.
 		카운터를 반환한다.
 ```
 
@@ -232,7 +233,8 @@ int countCells(x, y)
 		the result is 0;
 	else
 		set the colour of the pixel (x,y) to a red colour;
-		the result is 1 plus the number of cells in each piece of the blob that includes a nearest neighbour;
+		the result is 1 plus the number of cells 
+			in each piece of the blob that includes a nearest neighbour;
 ```
 
 ```java
