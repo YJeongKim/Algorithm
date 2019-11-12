@@ -278,8 +278,234 @@ public class Blob {
 
 <br>
 
+#### # N-Queens Problem
+
+N x N 크기의 체스 보드가 주어지며, 이 체스 보드에 N개의 퀸을 서로 공격할 수 없도록 배치하는 문제이다.
+
+이때 N개의 퀸 모두 동일한 행, 동일한 열, 동일한 대각선 상에 겹치지 않도록 놓아야 한다.
+
+즉, 조건을 만족하면서 하나의 행에 하나의 퀸을 놓아야 한다. 아래의 경우는 N=8인 경우이다.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/33328991/72676344-a7720780-3ad3-11ea-8c45-52bbf9de8197.JPG" alt="queen1" width="90%" />
+</p>
+
+이 문제를 푸는 방법의 하나는 **Backtracking **기법을 사용하는 것이다.
+
+어떤 결정들을 내려가다가 결정이 막다른 길이라 그 결정을 내려서는 안된다는 것이 분명해지면,
+
+**가장 최근의 내렸던 결정을 번복하고 다른 선택을 하는 문제 해결 방법**을 Backtracking (되추적 기법) 이라고 한다.
+
+<br>
+
+▶ Backtracking
+
+: 특정 노드에서 유망성(promising)을 점검하고, 유망하지 않다면 그 노드의 부모로 돌아가서(Backtracking)
+
+다음 노드에 대한 검색을 계속하게 되는 절차이다. 이로써 풀이 시간을 단축한다.
+
+스택에 자식 노드를 넣기 전에 유망한지(해답이 될 가능성이 있는지) 확인하고 스택에 넣는다.
+
+<br>
+
+▶ DFS와 Backtracking의 차이점
+
+- DFS는 완전 탐색 방법으로 모든 경로를 추적한다.
+
+- Backtracking은 가지치기(Pruning)를 통해 불필요한 경로를 차단하기 때문에 모든 경로를 추적하지 않는다.
+
+<br>
+
+▶ 상태공간트리
+
+: 찾는 해를 포함하는 트리이다. 즉, 해가 존재한다면 그것은 반드시 이 트리의 한 노드에 해당한다.
+
+따라서, 이 트리를 체계적으로 탐색하면 해를 구할 수 있다.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/33328991/72777203-3314a100-3c58-11ea-83ca-37b3cb482fc4.JPG" alt="queen2" width="90%" />
+</p>
+
+n=4인 경우를 생각해보자. 먼저 1번 말을 (1,1), (1,2), (1,3), (1,4)에 놓을 수 있는 4가지 갈래가 있다.
+
+그리고 그 각각에 대해서 2번 말을 (2,1), (2,2), (2,3), (2,4)에 놓을 수 있는 4가지의 갈래가 있다.
+
+그 이후도 마찬가지이며, 실제로 완성된 상태공간트리를 그린다면 4 x 4의 체스 보드에 4개의 말을 놓을 수 있는
+
+모든 가능한 경우의 수를 나열하는 그림이 될 것이다.
+
+<br>
+
+**※ 상태공간 트리의 모든 노드를 탐색해야하는 것은 아니다.**
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/33328991/72785246-2307bc00-3c6e-11ea-8ddb-556148b66260.JPG" alt="queen3" width="90%" />
+</p>
+
+상태공간트리를 탐색한다는 것은 실제로 모든 노드를 탐색한다는 것이 아니다.
+
+그리고 실제로 트리를 그리거나, data structure로 만든다는 뜻이 아니며 하나의 개념적인, 논리적인 것이다.
+
+이런 트리를 개념적으로 염두해두고, 실제로는 이 트리의 노드를 탐색하는 코드를 만들면 된다.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/33328991/72786231-70852880-3c70-11ea-97e1-810bf2be64ee.JPG" alt="queen4" width="90%" />
+</p>
+
+정리하자면, **Backtracking**은 상태공간트리를 **깊이 우선 방식**으로 탐색하여 해를 찾는 알고리즘을 말한다.
+
+이 알고리즘을 구현하는 방법은 recursion으로 구현하는 방법과 stack을 이용하여 구현하는 방법이 있다.
+
+recursion을 이용하여 구현하는 것이 쉽고 간명하기 때문에 대부분 recursion으로 Backtracking을 구현한다.
+
+<br>
+
+▶ Design Recursion
+
+가장 간단한 Backtracking을 구현하는 대부분의 함수들은 기본적으로 다음 구조를 가진다.
+
+```java
+return-type queens ( arguments ) {
+	if non-promising
+		report failure and return;
+	else if success
+		report answer and return;
+	else
+		visit children recursively;
+}
+```
+
+- arguments : 매개변수는 내가 현재 트리의 어떤 노드에 있는지를 지정해야 한다.
+
+  ​			상태공간트리 상에서 어떤 노드에 도착했다는 것이다.
+
+이 함수에서 수행할 코드는 어떤 노드에 도착했을 때, 그 이후에 행해져야 할 작업들이다.
+
+1. 먼저 할 것은 이 노드가 non-promising 또는 infeasible 한 노드인지를 판단한다.
+
+   즉, 해당 노드의 아래 깊이를 더 탐색해볼 가치가 있는 노드인가를 판단한다. 아니라면 되돌아간다.
+
+2. 만약, 답을 찾은 경우라면 답을 출력하고 리턴한다.
+
+3. 그렇지 않다면, (이 노드가 실패도 아니고 최종적인 답도 아니라면) 해당 노드의 자식들을 순서대로 방문한다.
+
+<br>
+
+```java
+int [] cols = new int [N+1];
+boolean queens( int level ) {
+	if non-promising
+		report failure and return;
+	else if success
+		report answer and return;
+	else
+		visit children and recursively;
+}
+```
+
+매개변수 level과 전역변수 cols를 이용함으로써 현재 트리 상의 어떤 노드에 있는지를 나타낸다.
+
+- 매개변수 level은 현재노드의 level을 표현한다.
+- 전역변수 배열 cols는 i번에서 level 번째 퀸이 어디에 놓였는지를 표현한다.
+- cols[i]=j는 i번 말이 (i행, j열)에 놓였음을 의미한다.
+
+return type은 boolean으로 성공이냐 실패냐를 반환한다.
+
+다음은 각 조건에 해당하는 코드를 작성한 것이다. non promising 여부를 판단하는 함수를 만들었다고 가정한다.
+
+```java
+int [] cols = new int [N+1];
+boolean queens(int level) {
+	if (!promising(level))
+		return false;
+	else if (level==N) // 모든 말이 놓였을 경우
+		return true;
+	for (int i=1; i<=N; i++) {
+		cols[level+1] = i;
+		if (queens(level+1)) // level+1번째 말을 각각의 열에 놓은 후 recursion을 호출한다.
+			return true;
+	}
+	return false; // N개의 말을 다 두어봤지만 꽝
+}
+```
+
+<br>
+
+▶ Promising Test
+
+위의 코드를 보면 queens()를 호출할 때 마다 promising 여부를 테스트하고 있다.
+
+cols 배열의 1, 2, 3에 해당하는 말들 간에는 충돌이 없다고 보장할 수 있다.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/33328991/72792104-c9a68980-3c7b-11ea-9736-5cbdd1d04948.JPG" alt="queen5" width="90%" />
+</p>
+
+```java
+boolean promising(int level) {
+	for (int i=1; i<level; i++) { // 이전에 놓인 말들과 level 번째 말이 충돌하는지 검사
+		if (cols[i]==cols[level]) // 같은 열에 놓였는지 check
+			return false;
+		else if (level-i==Math.abs(cols[level]-cols[i])) // 같은 대각선에 놓였는지 check
+			return false;
+	}
+	return true;
+}
+```
+
+다음 그림은 동일한 대각선에 놓였는지를 검사하는 방법이다.
+
+i-th row와 level-th row 사이의 거리와 cols[level]과 cols[i] 사이의 거리가 같다면 같은 대각선에 놓인 것이다.
+
+여기서 i와 level 중 어느 것이 큰 수인지 모르니 두 값의 차이에 절대값을 취한다.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/33328991/72792884-12ab0d80-3c7d-11ea-89a9-c46cd948861e.JPG" alt="queen6" width="65%" />
+</p>
+
+```java
+public class NQueens {
+	private static int N=8;
+	private static int [] cols = new int [N+1];
+
+	public static boolean queens(int level) {
+		if (!promising(level))
+			return false;
+		else if (level==N) {
+			for(int i=1; i<=N; i++)
+				System.out.println("(" + i + ", " + cols[i] + ")");
+			return true;
+		}
+		for (int i=1; i<=N; i++) {
+			cols[level+1] = i;
+			if (queens(level+1))
+				return true;
+		}
+		return false;
+	}
+
+	public static boolean promising(int level) {
+		for (int i=1; i<level; i++) {
+			if (cols[i]==cols[level])
+				return false;
+			else if ((level-i)==Math.abs(cols[level]-cols[i]))
+				return false;
+		}
+		return true;
+	}
+
+	public static void main(String [] args) {
+		queens(0);
+	}
+}
+```
+
+<br>
+
 ******
 #### 참고
 
 ###### [강의] [인프런:영리한 프로그래밍을 위한 알고리즘 강좌](https://www.inflearn.com/course/알고리즘-강좌/lecture/4075)
+
+###### [블로그] [https://ict-nroo.tistory.com](https://ict-nroo.tistory.com/50?category=698685) - 내용
 
