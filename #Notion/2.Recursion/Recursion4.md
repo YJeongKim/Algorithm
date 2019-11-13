@@ -287,10 +287,10 @@ N x N 크기의 체스 보드가 주어지며, 이 체스 보드에 N개의 퀸�
 즉, 조건을 만족하면서 하나의 행에 하나의 퀸을 놓아야 한다. 아래의 경우는 N=8인 경우이다.
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/33328991/72676344-a7720780-3ad3-11ea-8c45-52bbf9de8197.JPG" alt="queen1" width="90%" />
+    <img src="https://user-images.githubusercontent.com/33328991/72676344-a7720780-3ad3-11ea-8c45-52bbf9de8197.JPG" alt="queen1" width="70%" />
 </p>
 
-이 문제를 푸는 방법의 하나는 **Backtracking **기법을 사용하는 것이다.
+이 문제를 푸는 방법의 하나는 **Backtracking**기법을 사용하는 것이다.
 
 어떤 결정들을 내려가다가 결정이 막다른 길이라 그 결정을 내려서는 안된다는 것이 분명해지면,
 
@@ -339,7 +339,7 @@ n=4인 경우를 생각해보자. 먼저 1번 말을 (1,1), (1,2), (1,3), (1,4)�
 **※ 상태공간 트리의 모든 노드를 탐색해야하는 것은 아니다.**
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/33328991/72785246-2307bc00-3c6e-11ea-8ddb-556148b66260.JPG" alt="queen3" width="90%" />
+    <img src="https://user-images.githubusercontent.com/33328991/72785246-2307bc00-3c6e-11ea-8ddb-556148b66260.JPG" alt="queen3" width="70%" />
 </p>
 
 상태공간트리를 탐색한다는 것은 실제로 모든 노드를 탐색한다는 것이 아니다.
@@ -349,7 +349,7 @@ n=4인 경우를 생각해보자. 먼저 1번 말을 (1,1), (1,2), (1,3), (1,4)�
 이런 트리를 개념적으로 염두해두고, 실제로는 이 트리의 노드를 탐색하는 코드를 만들면 된다.
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/33328991/72786231-70852880-3c70-11ea-97e1-810bf2be64ee.JPG" alt="queen4" width="90%" />
+    <img src="https://user-images.githubusercontent.com/33328991/72786231-70852880-3c70-11ea-97e1-810bf2be64ee.JPG" alt="queen4" width="70%" />
 </p>
 
 정리하자면, **Backtracking**은 상태공간트리를 **깊이 우선 방식**으로 탐색하여 해를 찾는 알고리즘을 말한다.
@@ -377,7 +377,7 @@ return-type queens ( arguments ) {
 
 - arguments : 매개변수는 내가 현재 트리의 어떤 노드에 있는지를 지정해야 한다.
 
-  ​			상태공간트리 상에서 어떤 노드에 도착했다는 것이다.
+  상태공간트리 상에서 어떤 노드에 도착했다는 것이다.
 
 이 함수에서 수행할 코드는 어떤 노드에 도착했을 때, 그 이후에 행해져야 할 작업들이다.
 
@@ -406,7 +406,9 @@ boolean queens( int level ) {
 매개변수 level과 전역변수 cols를 이용함으로써 현재 트리 상의 어떤 노드에 있는지를 나타낸다.
 
 - 매개변수 level은 현재노드의 level을 표현한다.
+
 - 전역변수 배열 cols는 i번에서 level 번째 퀸이 어디에 놓였는지를 표현한다.
+
 - cols[i]=j는 i번 말이 (i행, j열)에 놓였음을 의미한다.
 
 return type은 boolean으로 성공이냐 실패냐를 반환한다.
@@ -438,7 +440,7 @@ boolean queens(int level) {
 cols 배열의 1, 2, 3에 해당하는 말들 간에는 충돌이 없다고 보장할 수 있다.
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/33328991/72792104-c9a68980-3c7b-11ea-9736-5cbdd1d04948.JPG" alt="queen5" width="90%" />
+    <img src="https://user-images.githubusercontent.com/33328991/72792104-c9a68980-3c7b-11ea-9736-5cbdd1d04948.JPG" alt="queen5" width="80%" />
 </p>
 
 ```java
@@ -460,7 +462,7 @@ i-th row와 level-th row 사이의 거리와 cols[level]과 cols[i] 사이의 �
 여기서 i와 level 중 어느 것이 큰 수인지 모르니 두 값의 차이에 절대값을 취한다.
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/33328991/72792884-12ab0d80-3c7d-11ea-89a9-c46cd948861e.JPG" alt="queen6" width="65%" />
+    <img src="https://user-images.githubusercontent.com/33328991/72792884-12ab0d80-3c7d-11ea-89a9-c46cd948861e.JPG" alt="queen6" width="60%" />
 </p>
 
 ```java
@@ -506,6 +508,10 @@ public class NQueens {
 #### 참고
 
 ###### [강의] [인프런:영리한 프로그래밍을 위한 알고리즘 강좌](https://www.inflearn.com/course/알고리즘-강좌/lecture/4075)
+
+###### [강의] [인프런:영리한 프로그래밍을 위한 알고리즘 강좌](https://www.inflearn.com/course/알고리즘-강좌/lecture/4076)
+
+###### [강의] [인프런:영리한 프로그래밍을 위한 알고리즘 강좌](https://www.inflearn.com/course/알고리즘-강좌/lecture/4077)
 
 ###### [블로그] [https://ict-nroo.tistory.com](https://ict-nroo.tistory.com/50?category=698685) - 내용
 
