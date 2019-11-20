@@ -1,7 +1,7 @@
 public class Recursion04 {
 	public static void main(String[] args) {
-        int result = factorial(4);
-        System.out.println(result);
+		int result = factorial(4);
+		System.out.println(result);
 	}
 
 	public static int factorial(int n) {

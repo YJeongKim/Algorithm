@@ -1,7 +1,7 @@
 public class Recursion05 {
 	public static void main(String[] args) {
-        double result = power(2, 4);
-        System.out.println(result);
+		double result = power(2, 4);
+		System.out.println(result);
 	}
 
 	public static double power(double x, int n) {
