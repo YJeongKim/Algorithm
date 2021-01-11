@@ -51,7 +51,7 @@ Study Algorithms
 
 ###### - [서적: 알고리즘 문제 해결 전략](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=21089176)
 
-[개념정리]: ./#Notion
+[개념정리]: ./%23Notion
 [백준]: ./Baekjoon
 [프로그래머스]: ./Programmers
 
