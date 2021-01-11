@@ -111,3 +111,5 @@ hs_err_pid*
 .history
 
 # End of https://www.gitignore.io/api/c,c++,java,visualstudiocode
+
+*.pdf
