@@ -4,7 +4,7 @@
 
 using namespace std;
 
-/* ¹®Á¦: 2016³â / ºÐ·ù: ¿¬½À¹®Á¦ */
+/* ë¬¸ì œ: 2016ë…„ / ë¶„ë¥˜: ì—°ìŠµë¬¸ì œ */
 string solution(int a, int b) {
     string answer = "";
     string day[7] = {"SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"};
