@@ -4,6 +4,7 @@
 
 using namespace std;
 
+/* 문제: 두 정수 사이의 합 / 분류: 연습문제 */
 long long solution(int a, int b) {
     long long answer = 0;
  
@@ -15,7 +16,6 @@ long long solution(int a, int b) {
 
     return answer;
 }
-
 int main(void) {
     cout << solution(3, 5) <<endl;    
     cout << solution(3, 3) <<endl;    

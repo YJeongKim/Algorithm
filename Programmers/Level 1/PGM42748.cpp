@@ -5,6 +5,7 @@
 
 using namespace std;
 
+/* 문제: K번째수 / 분류: 정렬 */
 vector<int> solution(vector<int> array, vector<vector<int>> commands) {
     vector<int> answer;
 
@@ -16,7 +17,6 @@ vector<int> solution(vector<int> array, vector<vector<int>> commands) {
 
     return answer;
 }
-
 int main() {
     vector<int> array = {1, 5, 2, 6, 3, 7, 4};
     vector<vector<int>> commands = {{2, 5, 3}, {4, 4, 1}, {1, 7, 3}};

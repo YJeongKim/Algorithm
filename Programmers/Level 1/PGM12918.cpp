@@ -5,6 +5,7 @@
 
 using namespace std;
 
+/* 문제: 문자열 다루기 기본 / 분류: 연습문제 */
 bool solution(string s) {
     bool answer = true;
     int length = s.length();
@@ -29,7 +30,6 @@ bool solution(string s) {
 
     return answer;
 }
-
 int main(void) {
     string s1 = "a123";
     string s2 = "012345";

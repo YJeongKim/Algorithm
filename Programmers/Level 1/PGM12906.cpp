@@ -5,6 +5,7 @@
 
 using namespace std;
 
+/* 문제: 같은 숫자는 싫어 / 분류: 연습문제 */
 vector<int> solution(vector<int> arr) {
     vector<int> answer;
     int n = 0;
@@ -20,7 +21,6 @@ vector<int> solution(vector<int> arr) {
     
     return answer;
 }
-
 int main(void) {
     vector<int> arr = {1, 1, 3, 3, 0, 1, 1};
 
