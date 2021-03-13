@@ -42,14 +42,24 @@
 | 32 | 소수 만들기 | [12977](https://programmers.co.kr/learn/courses/30/lessons/12977) |  | [보기](./Level%201/PGM12977.cpp) |  |
 | 33 | 비밀지도 | [17681](https://programmers.co.kr/learn/courses/30/lessons/17681) | 비트마스크 | [보기](./Level%201/PGM17681.cpp) | ![도전신청] |
 
-<br>
-
 ### ✌ Level 2
 
-<br>
+|  번호  |  문제 이름  |  문제 번호  |  유형  |  코드  |  재도전  |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| 01 | 숫자의 표현 | [12924](https://programmers.co.kr/learn/courses/30/lessons/12924) |  | [보기](./Level%202/PGM12924.cpp) |  |
+| 02 | 다음 큰 숫자 | [12911](https://programmers.co.kr/learn/courses/30/lessons/12911) |  | [보기](./Level%202/PGM12911.cpp) |  |
+| 03 | 올바른 괄호 | [12909](https://programmers.co.kr/learn/courses/30/lessons/12909) |  | [보기](./Level%202/PGM12909.cpp) |  |
+| 04 | 가장 큰 정사각형 찾기 | [12905](https://programmers.co.kr/learn/courses/30/lessons/12905) |  | [보기](./Level%202/PGM12905.cpp) |  |
+| 05 | 주식가격 | [42584](https://programmers.co.kr/learn/courses/30/lessons/42584) | 스택/큐 | [보기](./Level%202/PGM42584.cpp) |  |
+| 06 | 다리를 지나는 트럭 | [42583](https://programmers.co.kr/learn/courses/30/lessons/42583) | 스택/큐 | [보기](./Level%202/PGM42583.cpp) | ![도전신청] |
+| 07 | 가장 큰 수 | [42746](https://programmers.co.kr/learn/courses/30/lessons/42746) | 정렬 | [보기](./Level%202/PGM42746.cpp) |  |
+| 08 | 짝지어 제거하기 | [12973](https://programmers.co.kr/learn/courses/30/lessons/12973) | 스택 | [보기](./Level%202/PGM12973.cpp) |  |
+| 09 | 124 나라의 숫자 | [12899](https://programmers.co.kr/learn/courses/30/lessons/12899) |  | [보기](./Level%202/PGM12899.cpp) |  |
 
 ### 🤟 Level 3
 
+|  번호  |  문제 이름  |  문제 번호  |  유형  |  코드  |  재도전  |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
 
 [도전신청]: https://img.shields.io/badge/-도전신청-fd9090
 [도전완료]: https://img.shields.io/badge/-도전완료-86b4f9
