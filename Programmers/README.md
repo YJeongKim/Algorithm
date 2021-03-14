@@ -41,6 +41,7 @@
 | 31 | 체육복 | [42862](https://programmers.co.kr/learn/courses/30/lessons/42862) | 그리디 | [보기](./Level%201/PGM42862.cpp) |  |
 | 32 | 소수 만들기 | [12977](https://programmers.co.kr/learn/courses/30/lessons/12977) |  | [보기](./Level%201/PGM12977.cpp) |  |
 | 33 | 비밀지도 | [17681](https://programmers.co.kr/learn/courses/30/lessons/17681) | 비트마스크 | [보기](./Level%201/PGM17681.cpp) | ![도전신청] |
+| 34 | 두 개 뽑아서 더하기 | [68644](https://programmers.co.kr/learn/courses/30/lessons/68644) |  | [보기](./Level%201/PGM68644.cpp) |  |
 
 ### ✌ Level 2
 
