@@ -58,6 +58,7 @@
 | 08 | 짝지어 제거하기 | [12973](https://programmers.co.kr/learn/courses/30/lessons/12973) | 스택 | [보기](./Level%202/PGM12973.cpp) |  |
 | 09 | 124 나라의 숫자 | [12899](https://programmers.co.kr/learn/courses/30/lessons/12899) |  | [보기](./Level%202/PGM12899.cpp) |  |
 | 10 | 구명보트 | [42885](https://programmers.co.kr/learn/courses/30/lessons/42885) | 그리디 | [보기](./Level%202/PGM42885.java) |  |
+| 11 | 큰 수 만들기 | [42883](https://programmers.co.kr/learn/courses/30/lessons/42883) | 그리디 | [보기](./Level%202/PGM42883.java) |  |
 
 ### 🤟 Level 3
 
