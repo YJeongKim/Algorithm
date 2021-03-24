@@ -43,6 +43,7 @@
 | 33 | 비밀지도 | [17681](https://programmers.co.kr/learn/courses/30/lessons/17681) | 비트마스크 | [보기](./Level%201/PGM17681.cpp) | ![도전신청] |
 | 34 | 두 개 뽑아서 더하기 | [68644](https://programmers.co.kr/learn/courses/30/lessons/68644) |  | [보기](./Level%201/PGM68644.java) |  |
 | 35 | 크레인 인형뽑기 게임 | [64061](https://programmers.co.kr/learn/courses/30/lessons/64061) | 스택 | [보기](./Level%201/PGM64061.java) |  |
+| 36 | 신규 아이디 추천 | [72410](https://programmers.co.kr/learn/courses/30/lessons/72410) | 정규식 | [보기](./Level%201/PGM72410.java) |  |
 
 ### ✌ Level 2
 
