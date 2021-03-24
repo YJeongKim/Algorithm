@@ -1,5 +1,3 @@
-import java.util.*;
-
 /* 문제: 큰 수 만들기 / 분류: 그리디 */
 public class PGM42883 {
     public static void main(String[] args) {

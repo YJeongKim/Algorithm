@@ -1,6 +1,4 @@
-import java.util.*;
-
-/* ¹®Á¦: Å¸°Ù ³Ñ¹ö / ºÐ·ù: DFS, BFS */
+/* ë¬¸ì œ: íƒ€ê²Ÿ ë„˜ë²„ / ë¶„ë¥˜: DFS, BFS */
 public class PGM43165 {
     private static int answer = 0;
 
@@ -9,7 +7,7 @@ public class PGM43165 {
 
         System.out.println(solution(numbers, 3));
     }
-    
+
     public static int solution(int[] numbers, int target) {
         dfs(numbers, target, 0, 0);
         return answer;

@@ -1,5 +1,3 @@
-import java.util.*;
-
 /* 문제: 스킬트리 / 분류: Summer/Winter Coding(~2018) */
 public class PGM49993 {
     public static void main(String[] args) {
