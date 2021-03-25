@@ -62,6 +62,7 @@
 | 11 | 큰 수 만들기 | [42883](https://programmers.co.kr/learn/courses/30/lessons/42883) | 그리디 | [보기](./Level%202/PGM42883.java) |  |
 | 12 | 스킬트리 | [49993](https://programmers.co.kr/learn/courses/30/lessons/49993) |  | [보기](./Level%202/PGM49993.java) |  |
 | 13 | 타겟 넘버 | [43165](https://programmers.co.kr/learn/courses/30/lessons/43165) | DFS/BFS | [보기](./Level%202/PGM43165.java) |  |
+| 14 | 기능개발 | [42586](https://programmers.co.kr/learn/courses/30/lessons/42586) | 스택/큐 | [보기](./Level%202/PGM42586.java) |  |
 
 ### 🤟 Level 3
 
