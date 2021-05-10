@@ -45,6 +45,7 @@
 | 35 | 크레인 인형뽑기 게임 | [64061](https://programmers.co.kr/learn/courses/30/lessons/64061) | 스택 | [보기](./Level%201/PGM64061.java) |  |
 | 36 | 신규 아이디 추천 | [72410](https://programmers.co.kr/learn/courses/30/lessons/72410) | 정규식 | [보기](./Level%201/PGM72410.java) |  |
 | 37 | 정수 제곱근 판별 | [12934](https://programmers.co.kr/learn/courses/30/lessons/12934) |  | [보기](./Level%201/PGM12934.java) |  |
+| 38 | 완주하지 못한 선수 | [42576](https://programmers.co.kr/learn/courses/30/lessons/42576) | 해시 | [보기](./Level%201/PGM42576.java) |  |
 
 ### ✌ Level 2
 
