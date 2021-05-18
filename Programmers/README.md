@@ -47,6 +47,7 @@
 | 37 | 정수 제곱근 판별 | [12934](https://programmers.co.kr/learn/courses/30/lessons/12934) |  | [보기](./Level%201/PGM12934.java) |  |
 | 38 | 완주하지 못한 선수 | [42576](https://programmers.co.kr/learn/courses/30/lessons/42576) | 해시 | [보기](./Level%201/PGM42576.java) |  |
 | 39 | 완주하지 못한 선수 | [42576](https://programmers.co.kr/learn/courses/30/lessons/42576) | 해시 | [보기](./Level%201/PGM42576Re1.java) | ![다른버전] |
+| 40 | 약수의 개수와 덧셈 | [77884](https://programmers.co.kr/learn/courses/30/lessons/77884) | 수학 | [보기](./Level%201/PGM77884.java) |  |
 
 ### ✌ Level 2
 
