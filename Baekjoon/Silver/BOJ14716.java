@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-/* 문제: 현수막 / 분류: 그래프, dfs, bfs */
+/* 문제: 현수막 / 분류: 그래프, DFS, BFS */
 public class BOJ14716 {
     private static int[][] banner;
     private static boolean[][] checked;
