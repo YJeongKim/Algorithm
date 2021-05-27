@@ -49,6 +49,7 @@
 | 39 | 완주하지 못한 선수 | [42576](https://programmers.co.kr/learn/courses/30/lessons/42576) | 해시 | [보기](./Level%201/PGM42576Re1.java) | ![다른버전] |
 | 40 | 약수의 개수와 덧셈 | [77884](https://programmers.co.kr/learn/courses/30/lessons/77884) | 수학 | [보기](./Level%201/PGM77884.java) |  |
 | 41 | 내적 | [70128](https://programmers.co.kr/learn/courses/30/lessons/70128) |  | [보기](./Level%201/PGM70128.java) |  |
+| 42 | 최대공약수와 최소공배수 | [12940](https://programmers.co.kr/learn/courses/30/lessons/12940) | 수학 | [보기](./Level%201/PGM12940.java) |  |
 
 ### ✌ Level 2
 
