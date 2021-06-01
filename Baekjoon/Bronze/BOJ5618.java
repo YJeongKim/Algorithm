@@ -31,7 +31,8 @@ public class BOJ5618 {
 
     public static boolean isDivide(int[] number, int divNum) {
         for (int i = 0, n = number.length; i < n; i++) {
-            if (number[i] % divNum != 0) return false;
+            if (number[i] % divNum != 0)
+                return false;
         }
         return true;
     }

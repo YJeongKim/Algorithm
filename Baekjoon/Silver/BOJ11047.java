@@ -17,6 +17,7 @@ public class BOJ11047 {
 
     public static int findMinNumCoin(int n, int k, int[] a) {
         int count = 0;
+        
         for (int i = n - 1; i >= 0; i--) {
             if (k == 0) break;
             if (k / a[i] > 0) {

@@ -1,6 +1,6 @@
 import java.util.*;
 
-/* 문제: ATM / 분류: 그리디, 정렬 */
+/* 문제: ATM / 분류: 그리디(탐욕법), 정렬 */
 public class BOJ11399 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

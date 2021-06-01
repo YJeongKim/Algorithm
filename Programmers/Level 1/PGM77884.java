@@ -1,6 +1,6 @@
 import java.util.*;
 
-/* 문제: 약수의 개수와 덧셈 / 분류: 월간 코드 챌린지 시즌2 */
+/* 문제: 약수의 개수와 덧셈 / 분류: 월간 코드 챌린지 시즌2, 수학 */
 public class PGM77884 {
     public static void main(String[] args) {
         int[] left = { 13, 24 }, right = { 17, 27 };
