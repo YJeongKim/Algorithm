@@ -1,7 +1,7 @@
 import java.util.*;
 
-/* ¹®Á¦: ¿ÏÁÖÇÏÁö ¸øÇÑ ¼±¼ö / ºĞ·ù: ÇØ½Ã */
-/* ÇØ½Ã¸¦ ÀÌ¿ëÇØ¼­ ´Ù½Ã Ç®¾îº¸¾ÒÀ½ -> ½ÇÇà½Ã°£ Âª¾ÆÁü */
+/* ë¬¸ì œ: ì™„ì£¼í•˜ì§€ ëª»í•œ ì„ ìˆ˜ / ë¶„ë¥˜: í•´ì‹œ */
+/* í•´ì‹œë¥¼ ì´ìš©í•´ì„œ ë‹¤ì‹œ í’€ì–´ë³´ì•˜ìŒ -> ì‹¤í–‰ì‹œê°„ ì§§ì•„ì§ */
 public class PGM42576Re1 {
     public static void main(String[] args) {
         String[][] participant = { { "leo", "kiki", "eden" }, { "marina", "josipa", "nikola", "vinko", "filipa" },

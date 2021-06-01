@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-/* ¹®Á¦: °ø¾à¼ö / ºÐ·ù: ¼öÇÐ */
+/* ë¬¸ì œ: ê³µì•½ìˆ˜ / ë¶„ë¥˜: ìˆ˜í•™ */
 public class BOJ5618 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

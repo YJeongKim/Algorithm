@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-/* ¹®Á¦: µ¿Àü 0 / ºÐ·ù: ±×¸®µð */
+/* ë¬¸ì œ: ë™ì „ 0 / ë¶„ë¥˜: ê·¸ë¦¬ë”” */
 public class BOJ11047 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -17,7 +17,7 @@ public class BOJ11047 {
 
     public static int findMinNumCoin(int n, int k, int[] a) {
         int count = 0;
-        
+
         for (int i = n - 1; i >= 0; i--) {
             if (k == 0) break;
             if (k / a[i] > 0) {

@@ -1,6 +1,6 @@
 import java.util.*;
 
-/* ¹®Á¦: ATM / ºÐ·ù: ±×¸®µð(Å½¿å¹ý), Á¤·Ä */
+/* ë¬¸ì œ: ATM / ë¶„ë¥˜: ê·¸ë¦¬ë””, ì •ë ¬ */
 public class BOJ11399 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

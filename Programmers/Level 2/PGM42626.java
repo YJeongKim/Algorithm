@@ -1,6 +1,6 @@
 import java.util.*;
 
-/* ¹®Á¦: ´õ ¸Ê°Ô / ºĞ·ù: Èü(Heap) */
+/* ë¬¸ì œ: ë” ë§µê²Œ / ë¶„ë¥˜: í™ */
 public class PGM42626 {
     public static void main(String[] args) {
         int[][] scoville = { { 1, 2, 3, 9, 10, 12 }, { 1, 3, 4, 7, 11, 15, 18 } };
