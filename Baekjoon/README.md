@@ -22,7 +22,9 @@
 
 |  번호  |  문제 이름  |  문제 번호  |  난이도  |  유형  |  코드  |  재도전  |
 | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
-|  |  |  |  |  |  |  |
+| 01 | 치킨 배달 | [15686](https://www.acmicpc.net/problem/15686) | <img src="https://static.solved.ac/tier_small/11.svg" width="20px"/> | 구현, 브루트포스 | [보기](./Gold/BOJ15686.java) |  |
+| 02 | 암호 만들기 | [1759](https://www.acmicpc.net/problem/1759) | <img src="https://static.solved.ac/tier_small/11.svg" width="20px"/> | 수학, 브루트포스, 조합론, 백트래킹 | [보기](./Gold/BOJ1759.java) |  |
+| 03 | 창업 | [16890](https://www.acmicpc.net/problem/16890) | <img src="https://static.solved.ac/tier_small/13.svg" width="20px"/> | 문자열 | [보기](./Gold/BOJ16890.java) |  |
 
 [도전신청]: https://img.shields.io/badge/-도전신청-fd9090
 [도전완료]: https://img.shields.io/badge/-도전완료-86b4f9
