@@ -16,7 +16,19 @@
 
 |  번호  |  문제 이름  |  문제 번호  |  난이도  |  유형  |  코드  |  재도전  |
 | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
-|  |  |  |  |  |  |  |
+| 01 | 숫자 정사각형 | [1051](https://www.acmicpc.net/problem/1051) | <img src="https://static.solved.ac/tier_small/8.svg" width="20px"/> | 구현, 브루트포스 | [보기](./Silver/BOJ1051.cpp) |  |
+| 02 | 2×n 타일링 | [11726](https://www.acmicpc.net/problem/11726) | <img src="https://static.solved.ac/tier_small/8.svg" width="20px"/> | DP | [보기](./Silver/BOJ11726.cpp) |  |
+| 03 | 2×n 타일링 2 | [11727](https://www.acmicpc.net/problem/11727) | <img src="https://static.solved.ac/tier_small/8.svg" width="20px"/> | DP | [보기](./Silver/BOJ11727.cpp) |  |
+| 04 | 타일 채우기 | [2133](https://www.acmicpc.net/problem/2133) | <img src="https://static.solved.ac/tier_small/10.svg" width="20px"/> | DP | [보기](./Silver/BOJ2133.cpp) |  |
+| 05 | 동전 0 | [11047](https://www.acmicpc.net/problem/11047) | <img src="https://static.solved.ac/tier_small/9.svg" width="20px"/> | 그리디 | [보기](./Silver/BOJ11047.java) |  |
+| 06 | ATM | [11399](https://www.acmicpc.net/problem/11399) | <img src="https://static.solved.ac/tier_small/8.svg" width="20px"/> | 그리디, 정렬 | [보기](./Silver/BOJ11399.java) |  |
+| 07 | 수 찾기 | [1920](https://www.acmicpc.net/problem/1920) | <img src="https://static.solved.ac/tier_small/7.svg" width="20px"/> | 이분 탐색 | [보기](./Silver/BOJ1920.java) |  |
+| 08 | 후보 추천하기 | [1713](https://www.acmicpc.net/problem/1713) | <img src="https://static.solved.ac/tier_small/9.svg" width="20px"/> | 구현, 시뮬레이션 | [보기](./Silver/BOJ1713.java) |  |
+| 09 | 미술가 미미 | [20950](https://www.acmicpc.net/problem/20950) | <img src="https://static.solved.ac/tier_small/9.svg" width="20px"/> | 브루트포스, 백트래킹 | [보기](./Silver/BOJ20950.java) |  |
+| 10 | 키로거 | [5397](https://www.acmicpc.net/problem/5397) | <img src="https://static.solved.ac/tier_small/8.svg" width="20px"/> | 스택, 연결 리스트 | [보기](./Silver/BOJ5397.java) |  |
+| 11 | 현수막 | [14716](https://www.acmicpc.net/problem/14716) | <img src="https://static.solved.ac/tier_small/10.svg" width="20px"/> | 그래프, DFS, BFS | [보기](./Silver/BOJ14716.java) |  |
+| 12 | 그룹 단어 체커 | [1316](https://www.acmicpc.net/problem/1316) | <img src="https://static.solved.ac/tier_small/6.svg" width="20px"/> | 구현, 문자열 | [보기](./Silver/BOJ1316.java) |  |
+| 13 | 괄호 | [9012](https://www.acmicpc.net/problem/9012) | <img src="https://static.solved.ac/tier_small/7.svg" width="20px"/> | 문자열, 스택 | [보기](./Silver/BOJ9012.java) |  |
 
 ### 🥇 Gold
 
