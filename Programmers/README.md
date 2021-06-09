@@ -71,6 +71,7 @@
 | 14 | 기능개발 | [42586](https://programmers.co.kr/learn/courses/30/lessons/42586) | 스택/큐 | [보기](./Level%202/PGM42586.java) |  |
 | 15 | 전화번호 목록 | [42577](https://programmers.co.kr/learn/courses/30/lessons/42577) | 해시 | [보기](./Level%202/PGM42577.java) |  |
 | 16 | 더 맵게 | [42626](https://programmers.co.kr/learn/courses/30/lessons/42626) | 힙 | [보기](./Level%202/PGM42626.java) |  |
+| 17 | N개의 최소공배수 | [12953](https://programmers.co.kr/learn/courses/30/lessons/12953) | 수학 | [보기](./Level%202/PGM12953.java) |  |
 
 ### 🤟 Level 3
 
