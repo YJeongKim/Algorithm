@@ -73,6 +73,7 @@
 | 16 | 더 맵게 | [42626](https://programmers.co.kr/learn/courses/30/lessons/42626) | 힙 | [보기](./Level%202/PGM42626.java) |  |
 | 17 | N개의 최소공배수 | [12953](https://programmers.co.kr/learn/courses/30/lessons/12953) | 수학 | [보기](./Level%202/PGM12953.java) |  |
 | 18 | 행렬의 곱셈 | [12949](https://programmers.co.kr/learn/courses/30/lessons/12949) | 수학 | [보기](./Level%202/PGM12949.java) |  |
+| 19 | 최댓값과 최솟값 | [12939](https://programmers.co.kr/learn/courses/30/lessons/12939) |  | [보기](./Level%202/PGM12939.java) |  |
 
 ### 🤟 Level 3
 
