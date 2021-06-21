@@ -75,6 +75,7 @@
 | 18 | 행렬의 곱셈 | [12949](https://programmers.co.kr/learn/courses/30/lessons/12949) | 수학 | [보기](./Level%202/PGM12949.java) |  |
 | 19 | 최댓값과 최솟값 | [12939](https://programmers.co.kr/learn/courses/30/lessons/12939) |  | [보기](./Level%202/PGM12939.java) |  |
 | 20 | 예상 대진표 | [12985](https://programmers.co.kr/learn/courses/30/lessons/12985) |  | [보기](./Level%202/PGM12985.java) |  |
+| 21 | 카펫 | [42842](https://programmers.co.kr/learn/courses/30/lessons/42842) | 완전탐색 | [보기](./Level%202/PGM42842.java) |  |
 
 ### 🤟 Level 3
 
