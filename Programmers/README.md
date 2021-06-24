@@ -76,6 +76,7 @@
 | 19 | 최댓값과 최솟값 | [12939](https://programmers.co.kr/learn/courses/30/lessons/12939) |  | [보기](./Level%202/PGM12939.java) |  |
 | 20 | 예상 대진표 | [12985](https://programmers.co.kr/learn/courses/30/lessons/12985) |  | [보기](./Level%202/PGM12985.java) |  |
 | 21 | 카펫 | [42842](https://programmers.co.kr/learn/courses/30/lessons/42842) | 완전탐색 | [보기](./Level%202/PGM42842.java) |  |
+| 22 | 프렌즈4블록 | [17679](https://programmers.co.kr/learn/courses/30/lessons/17679) | 구현 | [보기](./Level%202/PGM17679.java) | ![도전신청] |
 
 ### 🤟 Level 3
 
