@@ -11,6 +11,7 @@
 | 01 | 설탕 배달 | [2839](https://www.acmicpc.net/problem/2839) | <img src="https://static.solved.ac/tier_small/5.svg" width="20px"/> | 수학, DP, 그리디 | [보기](./Bronze/BOJ2839.java) |  |
 | 02 | 공약수 | [5618](https://www.acmicpc.net/problem/5618) | <img src="https://static.solved.ac/tier_small/3.svg" width="20px"/> | 수학 | [보기](./Bronze/BOJ5618.java) |  |
 | 03 | 그대로 출력하기 | [11718](https://www.acmicpc.net/problem/11718) | <img src="https://static.solved.ac/tier_small/3.svg" width="20px"/> | 구현, 문자열 | [보기](./Bronze/BOJ11718.java) |  |
+| 04 | 수학은 비대면강의입니다 | [19532](https://www.acmicpc.net/problem/19532) | <img src="https://static.solved.ac/tier_small/4.svg" width="20px"/> | 수학, 브루트포스 | [보기](./Bronze/BOJ19532.java) |  |
 
 ### 🥈 Silver
 
