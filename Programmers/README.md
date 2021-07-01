@@ -52,6 +52,7 @@
 | 42 | 최대공약수와 최소공배수 | [12940](https://programmers.co.kr/learn/courses/30/lessons/12940) | 수학 | [보기](./Level%201/PGM12940.java) |  |
 | 43 | 키패드 누르기 | [67256](https://programmers.co.kr/learn/courses/30/lessons/67256) |  | [보기](./Level%201/PGM67256.java) |  |
 | 44 | 음양 더하기 | [76501](https://programmers.co.kr/learn/courses/30/lessons/76501) |  | [보기](./Level%201/PGM76501.java) |  |
+| 45 | 폰켓몬 | [1845](https://programmers.co.kr/learn/courses/30/lessons/1845) |  | [보기](./Level%201/PGM1845.java) |  |
 
 ### ✌ Level 2
 
