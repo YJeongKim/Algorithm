@@ -84,6 +84,7 @@
 | 22 | 프렌즈4블록 | [17679](https://programmers.co.kr/learn/courses/30/lessons/17679) | 구현 | [보기](./Level%202/PGM17679.java) | ![도전신청] |
 | 23 | 방금그곡 | [17683](https://programmers.co.kr/learn/courses/30/lessons/17683) | 문자열 | [보기](./Level%202/PGM17683.java) |  |
 | 24 | 괄호 회전하기 | [76502](https://programmers.co.kr/learn/courses/30/lessons/76502) |  | [보기](./Level%202/PGM76502.java) |  |
+| 25 | 2개 이하로 다른 비트 | [77885](https://programmers.co.kr/learn/courses/30/lessons/77885) |  | [보기](./Level%202/PGM77885.java) |  |
 
 ### 🤟 Level 3
 
