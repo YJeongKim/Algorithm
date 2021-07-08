@@ -55,6 +55,7 @@
 | 45 | 폰켓몬 | [1845](https://programmers.co.kr/learn/courses/30/lessons/1845) |  | [보기](./Level%201/PGM1845.java) |  |
 | 46 | 실패율 | [42889](https://programmers.co.kr/learn/courses/30/lessons/42889) |  | [보기](./Level%201/PGM42889.java) |  |
 | 47 | 3진법 뒤집기 | [68935](https://programmers.co.kr/learn/courses/30/lessons/68935) |  | [보기](./Level%201/PGM68935.java) |  |
+| 48 | 숫자 문자열과 영단어 | [81301](https://programmers.co.kr/learn/courses/30/lessons/81301) |  | [보기](./Level%201/PGM81301.java) |  |
 
 ### ✌ Level 2
 
