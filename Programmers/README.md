@@ -88,6 +88,7 @@
 | 25 | 2개 이하로 다른 비트 | [77885](https://programmers.co.kr/learn/courses/30/lessons/77885) |  | [보기](./Level%202/PGM77885.java) |  |
 | 26 | 행렬 테두리 회전하기 | [77485](https://programmers.co.kr/learn/courses/30/lessons/77485) |  | [보기](./Level%202/PGM77485.java) | ![도전신청] |
 | 27 | JadenCase 문자열 만들기 | [12951](https://programmers.co.kr/learn/courses/30/lessons/12951) |  | [보기](./Level%202/PGM12951.java) |  |
+| 28 | 튜플 | [64065](https://programmers.co.kr/learn/courses/30/lessons/64065) |  | [보기](./Level%202/PGM64065.java) |  |
 
 ### 🤟 Level 3
 
