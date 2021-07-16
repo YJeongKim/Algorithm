@@ -95,6 +95,7 @@
 |  번호  |  문제 이름  |  문제 번호  |  유형  |  코드  |  재도전  |
 | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
 | 01 | 2 x n 타일링 | [12900](https://programmers.co.kr/learn/courses/30/lessons/12900) | DP | [보기](./Level%203/PGM12900.java) |  |
+| 02 | 여행경로 | [43164](https://programmers.co.kr/learn/courses/30/lessons/43164) | DFS/BFS, 백트래킹 | [보기](./Level%203/PGM43164.java) |  |
 
 [도전신청]: https://img.shields.io/badge/-도전신청-fd9090
 [도전완료]: https://img.shields.io/badge/-도전완료-86b4f9
