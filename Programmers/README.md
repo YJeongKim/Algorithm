@@ -90,6 +90,7 @@
 | 27 | JadenCase 문자열 만들기 | [12951](https://programmers.co.kr/learn/courses/30/lessons/12951) |  | [보기](./Level%202/PGM12951.java) |  |
 | 28 | 튜플 | [64065](https://programmers.co.kr/learn/courses/30/lessons/64065) |  | [보기](./Level%202/PGM64065.java) |  |
 | 29 | 뉴스 클러스터링 | [17677](https://programmers.co.kr/learn/courses/30/lessons/17677) |  | [보기](./Level%202/PGM17677.java) |  |
+| 30 | 영어 끝말잇기 | [12981](https://programmers.co.kr/learn/courses/30/lessons/12981) |  | [보기](./Level%202/PGM12981.java) |  |
 
 ### 🤟 Level 3
 
